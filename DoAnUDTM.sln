@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoAnUDTM", "DoAnUDTM\DoAnUDTM.csproj", "{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleLogin", "ModuleLogin\ModuleLogin.csproj", "{5270CB33-894E-4AE6-B814-3E621F328365}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5270CB33-894E-4AE6-B814-3E621F328365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5270CB33-894E-4AE6-B814-3E621F328365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5270CB33-894E-4AE6-B814-3E621F328365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5270CB33-894E-4AE6-B814-3E621F328365}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

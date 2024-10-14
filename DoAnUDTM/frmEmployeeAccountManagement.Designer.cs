@@ -28,12 +28,271 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "frmEmployeeAccountManagement";
+            this.panelSearch = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dtpTo = new System.Windows.Forms.DateTimePicker();
+            this.dtpFrom = new System.Windows.Forms.DateTimePicker();
+            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.txtPhone = new System.Windows.Forms.TextBox();
+            this.txtDepartment = new System.Windows.Forms.TextBox();
+            this.cmbActiveStatus = new System.Windows.Forms.ComboBox();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
+            this.dgvEmployees = new System.Windows.Forms.DataGridView();
+            this.panelPagination = new System.Windows.Forms.Panel();
+            this.lblPageInfo = new System.Windows.Forms.Label();
+            this.btnFirst = new System.Windows.Forms.Button();
+            this.btnPrevious = new System.Windows.Forms.Button();
+            this.btnNext = new System.Windows.Forms.Button();
+            this.btnLast = new System.Windows.Forms.Button();
+            this.btnAddNew = new System.Windows.Forms.Button();
+            this.panelSearch.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEmployees)).BeginInit();
+            this.panelPagination.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // panelSearch
+            // 
+            this.panelSearch.Controls.Add(this.label3);
+            this.panelSearch.Controls.Add(this.groupBox1);
+            this.panelSearch.Controls.Add(this.txtUsername);
+            this.panelSearch.Controls.Add(this.txtPhone);
+            this.panelSearch.Controls.Add(this.txtDepartment);
+            this.panelSearch.Controls.Add(this.cmbActiveStatus);
+            this.panelSearch.Controls.Add(this.btnSearch);
+            this.panelSearch.Controls.Add(this.btnReset);
+            this.panelSearch.Location = new System.Drawing.Point(20, 20);
+            this.panelSearch.Name = "panelSearch";
+            this.panelSearch.Size = new System.Drawing.Size(200, 369);
+            this.panelSearch.TabIndex = 0;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(20, 137);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(55, 13);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "Trạng thái";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.dtpTo);
+            this.groupBox1.Controls.Add(this.dtpFrom);
+            this.groupBox1.Location = new System.Drawing.Point(20, 197);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(160, 100);
+            this.groupBox1.TabIndex = 10;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Ngày vào công ty";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Calibri", 9.75F);
+            this.label2.Location = new System.Drawing.Point(10, 71);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(34, 15);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Đến :";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Calibri", 9.75F);
+            this.label1.Location = new System.Drawing.Point(10, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(26, 15);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Từ :";
+            // 
+            // dtpTo
+            // 
+            this.dtpTo.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpTo.Location = new System.Drawing.Point(44, 23);
+            this.dtpTo.Name = "dtpTo";
+            this.dtpTo.Size = new System.Drawing.Size(110, 20);
+            this.dtpTo.TabIndex = 7;
+            // 
+            // dtpFrom
+            // 
+            this.dtpFrom.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpFrom.Location = new System.Drawing.Point(44, 65);
+            this.dtpFrom.Name = "dtpFrom";
+            this.dtpFrom.Size = new System.Drawing.Size(110, 20);
+            this.dtpFrom.TabIndex = 6;
+            // 
+            // txtUsername
+            // 
+            this.txtUsername.Location = new System.Drawing.Point(20, 20);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(160, 20);
+            this.txtUsername.TabIndex = 1;
+            // 
+            // txtPhone
+            // 
+            this.txtPhone.Location = new System.Drawing.Point(20, 60);
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.Size = new System.Drawing.Size(160, 20);
+            this.txtPhone.TabIndex = 2;
+            // 
+            // txtDepartment
+            // 
+            this.txtDepartment.Location = new System.Drawing.Point(20, 100);
+            this.txtDepartment.Name = "txtDepartment";
+            this.txtDepartment.Size = new System.Drawing.Size(160, 20);
+            this.txtDepartment.TabIndex = 3;
+            // 
+            // cmbActiveStatus
+            // 
+            this.cmbActiveStatus.FormattingEnabled = true;
+            this.cmbActiveStatus.Items.AddRange(new object[] {
+            "Custom"});
+            this.cmbActiveStatus.Location = new System.Drawing.Point(20, 155);
+            this.cmbActiveStatus.Name = "cmbActiveStatus";
+            this.cmbActiveStatus.Size = new System.Drawing.Size(160, 21);
+            this.cmbActiveStatus.TabIndex = 5;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(20, 329);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(75, 23);
+            this.btnSearch.TabIndex = 8;
+            this.btnSearch.Text = "Tìm kiếm";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            // 
+            // btnReset
+            // 
+            this.btnReset.Location = new System.Drawing.Point(105, 329);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(75, 23);
+            this.btnReset.TabIndex = 9;
+            this.btnReset.Text = "Mặc định";
+            this.btnReset.UseVisualStyleBackColor = true;
+            // 
+            // dgvEmployees
+            // 
+            this.dgvEmployees.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvEmployees.Location = new System.Drawing.Point(240, 20);
+            this.dgvEmployees.Name = "dgvEmployees";
+            this.dgvEmployees.Size = new System.Drawing.Size(700, 323);
+            this.dgvEmployees.TabIndex = 10;
+            // 
+            // panelPagination
+            // 
+            this.panelPagination.Controls.Add(this.lblPageInfo);
+            this.panelPagination.Controls.Add(this.btnFirst);
+            this.panelPagination.Controls.Add(this.btnPrevious);
+            this.panelPagination.Controls.Add(this.btnNext);
+            this.panelPagination.Controls.Add(this.btnLast);
+            this.panelPagination.Location = new System.Drawing.Point(550, 349);
+            this.panelPagination.Name = "panelPagination";
+            this.panelPagination.Size = new System.Drawing.Size(390, 40);
+            this.panelPagination.TabIndex = 12;
+            // 
+            // lblPageInfo
+            // 
+            this.lblPageInfo.AutoSize = true;
+            this.lblPageInfo.Location = new System.Drawing.Point(10, 10);
+            this.lblPageInfo.Name = "lblPageInfo";
+            this.lblPageInfo.Size = new System.Drawing.Size(110, 13);
+            this.lblPageInfo.TabIndex = 0;
+            this.lblPageInfo.Text = "Bạn đang ở trang 1/2";
+            // 
+            // btnFirst
+            // 
+            this.btnFirst.Location = new System.Drawing.Point(150, 5);
+            this.btnFirst.Name = "btnFirst";
+            this.btnFirst.Size = new System.Drawing.Size(50, 23);
+            this.btnFirst.TabIndex = 1;
+            this.btnFirst.Text = "|<<";
+            this.btnFirst.UseVisualStyleBackColor = true;
+            // 
+            // btnPrevious
+            // 
+            this.btnPrevious.Location = new System.Drawing.Point(210, 5);
+            this.btnPrevious.Name = "btnPrevious";
+            this.btnPrevious.Size = new System.Drawing.Size(50, 23);
+            this.btnPrevious.TabIndex = 2;
+            this.btnPrevious.Text = "<<";
+            this.btnPrevious.UseVisualStyleBackColor = true;
+            // 
+            // btnNext
+            // 
+            this.btnNext.Location = new System.Drawing.Point(270, 5);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(50, 23);
+            this.btnNext.TabIndex = 3;
+            this.btnNext.Text = ">>";
+            this.btnNext.UseVisualStyleBackColor = true;
+            // 
+            // btnLast
+            // 
+            this.btnLast.Location = new System.Drawing.Point(330, 5);
+            this.btnLast.Name = "btnLast";
+            this.btnLast.Size = new System.Drawing.Size(50, 23);
+            this.btnLast.TabIndex = 4;
+            this.btnLast.Text = ">>|";
+            this.btnLast.UseVisualStyleBackColor = true;
+            // 
+            // btnAddNew
+            // 
+            this.btnAddNew.Location = new System.Drawing.Point(240, 354);
+            this.btnAddNew.Name = "btnAddNew";
+            this.btnAddNew.Size = new System.Drawing.Size(75, 35);
+            this.btnAddNew.TabIndex = 11;
+            this.btnAddNew.Text = "Thêm mới";
+            this.btnAddNew.UseVisualStyleBackColor = true;
+            // 
+            // frmEmployeeAccountManagement
+            // 
+            this.ClientSize = new System.Drawing.Size(960, 409);
+            this.Controls.Add(this.panelPagination);
+            this.Controls.Add(this.btnAddNew);
+            this.Controls.Add(this.dgvEmployees);
+            this.Controls.Add(this.panelSearch);
+            this.Name = "frmEmployeeAccountManagement";
+            this.Text = "Quản lý nhân viên";
+            this.panelSearch.ResumeLayout(false);
+            this.panelSearch.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEmployees)).EndInit();
+            this.panelPagination.ResumeLayout(false);
+            this.panelPagination.PerformLayout();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Panel panelSearch;
+        private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.TextBox txtPhone;
+        private System.Windows.Forms.TextBox txtDepartment;
+        private System.Windows.Forms.ComboBox cmbActiveStatus;
+        private System.Windows.Forms.DateTimePicker dtpFrom;
+        private System.Windows.Forms.DateTimePicker dtpTo;
+        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.DataGridView dgvEmployees;
+        private System.Windows.Forms.Panel panelPagination;
+        private System.Windows.Forms.Label lblPageInfo;
+        private System.Windows.Forms.Button btnFirst;
+        private System.Windows.Forms.Button btnPrevious;
+        private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Button btnLast;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnAddNew;
     }
 }
