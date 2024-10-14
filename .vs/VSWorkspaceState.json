@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\DoAnUDTM",
-    "\\DoAnUDTM\\DAL",
     "\\ModuleLogin"
   ],
-  "SelectedNode": "\\DoAnUDTM\\DAL\\DBcontext.dbml",
+  "SelectedNode": "\\DoAnUDTM.sln",
   "PreviewInSolutionExplorer": false
 }

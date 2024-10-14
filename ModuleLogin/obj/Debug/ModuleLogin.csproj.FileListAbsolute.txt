@@ -13,3 +13,6 @@ C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\ModuleLogin\obj\Debug\ModuleLogin.csproj.Cor
 C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\ModuleLogin\obj\Debug\ModuleLogin.dll
 C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\ModuleLogin\obj\Debug\ModuleLogin.pdb
 C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\ModuleLogin\obj\Debug\ModuleLogin.UcCauHinh.resources
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\ModuleLogin\obj\Debug\ModuleLogin.UcCauHinh.resources
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\ModuleLogin\obj\Debug\ModuleLogin.UcLogin.resources
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\ModuleLogin\obj\Debug\ModuleLogin.csproj.GenerateResource.cache

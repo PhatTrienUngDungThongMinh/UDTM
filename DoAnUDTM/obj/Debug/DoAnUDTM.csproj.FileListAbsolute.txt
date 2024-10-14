@@ -18,3 +18,12 @@ C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\obj\Debug\DoAnUDTM.csproj.CoreCompi
 C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\obj\Debug\DoAnUDTM.csproj.Up2Date
 C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\obj\Debug\DoAnUDTM.exe
 C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\obj\Debug\DoAnUDTM.pdb
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\bin\Debug\DoAnUDTM.exe.config
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\bin\Debug\DoAnUDTM.exe
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\bin\Debug\DoAnUDTM.pdb
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\bin\Debug\ModuleLogin.dll
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\bin\Debug\ModuleLogin.pdb
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.csproj.Up2Date
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.exe
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.pdb
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmAddUserToPermissionGroup.resources

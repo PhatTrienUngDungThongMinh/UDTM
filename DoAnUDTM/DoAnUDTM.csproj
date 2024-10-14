@@ -52,6 +52,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DBcontext.dbml</DependentUpon>
     </Compile>
+    <Compile Include="frmAddUserToPermissionGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddUserToPermissionGroup.Designer.cs">
+      <DependentUpon>frmAddUserToPermissionGroup.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCustomerManagement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +134,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmHome.resx">
       <DependentUpon>frmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddUserToPermissionGroup.resx">
+      <DependentUpon>frmAddUserToPermissionGroup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
