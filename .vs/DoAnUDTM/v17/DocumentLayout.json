@@ -3,27 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|c:\\users\\tjnk1\\onedrive\\m\u00E1y t\u00EDnh\\project\\udtm\\doanudtm\\doanudtm\\dal\\dbcontext.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "RelativeMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|solutionrelative:doanudtm\\dal\\dbcontext.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|c:\\users\\tjnk1\\onedrive\\m\u00E1y t\u00EDnh\\project\\udtm\\doanudtm\\doanudtm\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|solutionrelative:doanudtm\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\doanudtm\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|solutionrelative:doanudtm\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\doanudtm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|solutionrelative:doanudtm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|c:\\users\\tjnk1\\onedrive\\m\u00E1y t\u00EDnh\\project\\udtm\\doanudtm\\doanudtm\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|DoAnUDTM||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\doanudtm\\frmhome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|solutionrelative:doanudtm\\frmhome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\doanudtm\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|solutionrelative:doanudtm\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|c:\\users\\tjnk1\\onedrive\\m\u00E1y t\u00EDnh\\project\\udtm\\doanudtm\\doanudtm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\doanudtm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|solutionrelative:doanudtm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5270CB33-894E-4AE6-B814-3E621F328365}|ModuleLogin\\ModuleLogin.csproj|c:\\users\\tjnk1\\onedrive\\m\u00E1y t\u00EDnh\\project\\udtm\\doanudtm\\modulelogin\\uclogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5270CB33-894E-4AE6-B814-3E621F328365}|ModuleLogin\\ModuleLogin.csproj|C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\modulelogin\\uclogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5270CB33-894E-4AE6-B814-3E621F328365}|ModuleLogin\\ModuleLogin.csproj|solutionrelative:modulelogin\\uclogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5270CB33-894E-4AE6-B814-3E621F328365}|ModuleLogin\\ModuleLogin.csproj|c:\\users\\tjnk1\\onedrive\\m\u00E1y t\u00EDnh\\project\\udtm\\doanudtm\\modulelogin\\uclogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5270CB33-894E-4AE6-B814-3E621F328365}|ModuleLogin\\ModuleLogin.csproj|C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\modulelogin\\uclogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5270CB33-894E-4AE6-B814-3E621F328365}|ModuleLogin\\ModuleLogin.csproj|solutionrelative:modulelogin\\uclogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|DoAnUDTM||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\doanudtm\\frmshippingmanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,10 +82,6 @@
       "RelativeMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|solutionrelative:doanudtm\\frminventorymanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\doanudtm\\frmhome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|solutionrelative:doanudtm\\frmhome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\doanudtm\\frmemployeeaccountmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|solutionrelative:doanudtm\\frmemployeeaccountmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -88,10 +100,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\doanudtm\\frmcustomermanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|solutionrelative:doanudtm\\frmcustomermanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\doanudtm\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|solutionrelative:doanudtm\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\doanudtm\\frmshippingmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -132,7 +140,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -140,7 +148,97 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBcontext.dbml",
+              "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\DAL\\DBcontext.dbml",
+              "RelativeDocumentMoniker": "DoAnUDTM\\DAL\\DBcontext.dbml",
+              "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\DAL\\DBcontext.dbml",
+              "RelativeToolTip": "DoAnUDTM\\DAL\\DBcontext.dbml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
+              "WhenOpened": "2024-10-14T13:36:47.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoAnUDTM",
+              "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\DoAnUDTM.csproj",
+              "RelativeDocumentMoniker": "DoAnUDTM\\DoAnUDTM.csproj",
+              "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\DoAnUDTM.csproj",
+              "RelativeToolTip": "DoAnUDTM\\DoAnUDTM.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-14T10:02:44.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\Login.cs",
+              "RelativeDocumentMoniker": "DoAnUDTM\\Login.cs",
+              "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\Login.cs [Design]",
+              "RelativeToolTip": "DoAnUDTM\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:33:14.396Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmHome.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmHome.cs",
+              "RelativeDocumentMoniker": "DoAnUDTM\\frmHome.cs",
+              "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmHome.cs [Design]",
+              "RelativeToolTip": "DoAnUDTM\\frmHome.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T09:47:02.401Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "frmHome.cs",
+              "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmHome.cs",
+              "RelativeDocumentMoniker": "DoAnUDTM\\frmHome.cs",
+              "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmHome.cs",
+              "RelativeToolTip": "DoAnUDTM\\frmHome.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAASwBAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T10:47:57.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmHome.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmHome.Designer.cs",
+              "RelativeDocumentMoniker": "DoAnUDTM\\frmHome.Designer.cs",
+              "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmHome.Designer.cs",
+              "RelativeToolTip": "DoAnUDTM\\frmHome.Designer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T09:54:28.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\Program.cs",
+              "RelativeDocumentMoniker": "DoAnUDTM\\Program.cs",
+              "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\Program.cs",
+              "RelativeToolTip": "DoAnUDTM\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T10:06:02.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Login.Designer.cs",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\Login.Designer.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\Login.Designer.cs",
@@ -153,32 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\Program.cs",
-              "RelativeDocumentMoniker": "DoAnUDTM\\Program.cs",
-              "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\Program.cs",
-              "RelativeToolTip": "DoAnUDTM\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T10:06:02.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\Login.cs",
-              "RelativeDocumentMoniker": "DoAnUDTM\\Login.cs",
-              "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\Login.cs [Design]",
-              "RelativeToolTip": "DoAnUDTM\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T13:33:14.396Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "UcLogin.Designer.cs",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\ModuleLogin\\UcLogin.Designer.cs",
               "RelativeDocumentMoniker": "ModuleLogin\\UcLogin.Designer.cs",
@@ -186,36 +259,22 @@
               "RelativeToolTip": "ModuleLogin\\UcLogin.Designer.cs",
               "ViewState": "AgIAAG0AAAAAAAAAAAAQwHwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T10:03:59.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T10:03:59.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "UcLogin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\ModuleLogin\\UcLogin.cs",
               "RelativeDocumentMoniker": "ModuleLogin\\UcLogin.cs",
               "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\ModuleLogin\\UcLogin.cs [Design]",
               "RelativeToolTip": "ModuleLogin\\UcLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T10:03:43.6Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-14T10:03:43.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DoAnUDTM",
-              "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\DoAnUDTM.csproj",
-              "RelativeDocumentMoniker": "DoAnUDTM\\DoAnUDTM.csproj",
-              "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\DoAnUDTM.csproj",
-              "RelativeToolTip": "DoAnUDTM\\DoAnUDTM.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-14T10:02:44.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "frmShippingManagement.Designer.cs",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmShippingManagement.Designer.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmShippingManagement.Designer.cs",
@@ -227,19 +286,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "frmRoleManagement.Designer.cs",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmRoleManagement.Designer.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmRoleManagement.Designer.cs",
-              "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmRoleManagement.Designer.cs*",
-              "RelativeToolTip": "DoAnUDTM\\frmRoleManagement.Designer.cs*",
+              "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmRoleManagement.Designer.cs",
+              "RelativeToolTip": "DoAnUDTM\\frmRoleManagement.Designer.cs",
               "ViewState": "AgIAAPcAAAAAAAAAAAAAAAUBAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T09:59:40.449Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "frmProductManagement.cs",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmProductManagement.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmProductManagement.cs",
@@ -251,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "frmProductManagement.Designer.cs",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmProductManagement.Designer.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmProductManagement.Designer.cs",
@@ -263,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "frmProductManagement.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmProductManagement.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmProductManagement.cs",
@@ -274,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "frmRoleManagement.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmRoleManagement.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmRoleManagement.cs",
@@ -285,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "frmProductCategorization.Designer.cs",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmProductCategorization.Designer.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmProductCategorization.Designer.cs",
@@ -297,19 +356,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "frmPeriodicReport.Designer.cs",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmPeriodicReport.Designer.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmPeriodicReport.Designer.cs",
-              "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmPeriodicReport.Designer.cs*",
-              "RelativeToolTip": "DoAnUDTM\\frmPeriodicReport.Designer.cs*",
+              "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmPeriodicReport.Designer.cs",
+              "RelativeToolTip": "DoAnUDTM\\frmPeriodicReport.Designer.cs",
               "ViewState": "AgIAAO8AAAAAAAAAAAAAAPwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T09:55:49.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "frmOrderManagement.Designer.cs",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmOrderManagement.Designer.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmOrderManagement.Designer.cs",
@@ -321,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "frmInventoryManagement.Designer.cs",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmInventoryManagement.Designer.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmInventoryManagement.Designer.cs",
@@ -333,19 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "frmHome.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmHome.Designer.cs",
-              "RelativeDocumentMoniker": "DoAnUDTM\\frmHome.Designer.cs",
-              "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmHome.Designer.cs",
-              "RelativeToolTip": "DoAnUDTM\\frmHome.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T09:54:28.623Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "frmEmployeeAccountManagement.Designer.cs",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmEmployeeAccountManagement.Designer.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmEmployeeAccountManagement.Designer.cs",
@@ -357,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "frmDiscountAndPromotionManagement.Designer.cs",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmDiscountAndPromotionManagement.Designer.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmDiscountAndPromotionManagement.Designer.cs",
@@ -369,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "frmCustomerManagement.Designer.cs",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmCustomerManagement.Designer.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmCustomerManagement.Designer.cs",
@@ -381,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "frmEmployeeAccountManagement.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmEmployeeAccountManagement.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmEmployeeAccountManagement.cs",
@@ -392,18 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "frmHome.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmHome.cs",
-              "RelativeDocumentMoniker": "DoAnUDTM\\frmHome.cs",
-              "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmHome.cs [Design]",
-              "RelativeToolTip": "DoAnUDTM\\frmHome.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T09:47:02.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "frmShippingManagement.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmShippingManagement.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmShippingManagement.cs",
@@ -414,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "frmCustomerManagement.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmCustomerManagement.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmCustomerManagement.cs",
@@ -424,12 +460,8 @@
               "WhenOpened": "2024-10-13T13:44:20.618Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "frmProductCategorization.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmProductCategorization.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmProductCategorization.cs",
@@ -440,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "frmPeriodicReport.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmPeriodicReport.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmPeriodicReport.cs",
@@ -451,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "frmOrderManagement.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmOrderManagement.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmOrderManagement.cs",
@@ -462,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "frmInventoryManagement.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmInventoryManagement.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmInventoryManagement.cs",
@@ -473,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "frmDiscountAndPromotionManagement.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmDiscountAndPromotionManagement.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\frmDiscountAndPromotionManagement.cs",
@@ -484,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\Login.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\Login.cs",
@@ -492,7 +524,8 @@
               "RelativeToolTip": "DoAnUDTM\\Login.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T13:41:13.945Z"
+              "WhenOpened": "2024-10-13T13:41:13.945Z",
+              "EditorCaption": ""
             }
           ]
         }

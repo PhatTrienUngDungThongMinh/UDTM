@@ -2,3 +2,5 @@ C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAn
 C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.Properties.Resources.resources
 C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.csproj.GenerateResource.cache
 C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.csproj.CoreCompileInputs.cache
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmHome.resources
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.Login.resources
