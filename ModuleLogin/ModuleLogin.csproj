@@ -44,6 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QL_NguoiDung.cs" />
+    <Compile Include="UcCauHinh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcCauHinh.Designer.cs">
+      <DependentUpon>UcCauHinh.cs</DependentUpon>
+    </Compile>
     <Compile Include="UcLogin.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -51,6 +58,14 @@
       <DependentUpon>UcLogin.cs</DependentUpon>
     </Compile>
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UcCauHinh.resx">
+      <DependentUpon>UcCauHinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcLogin.resx">
+      <DependentUpon>UcLogin.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

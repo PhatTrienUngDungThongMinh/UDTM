@@ -32,112 +32,114 @@ namespace ModuleLogin
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            button2 = new Button();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            checkBox1 = new CheckBox();
-            button1 = new Button();
-            SuspendLayout();
+            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblUsername = new System.Windows.Forms.Label();
+            this.lblPassword = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
-            // textBox1
+            // txtUsername
             // 
-            textBox1.Location = new Point(106, 70);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(216, 23);
-            textBox1.TabIndex = 1;
+            this.txtUsername.Location = new System.Drawing.Point(91, 61);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(186, 20);
+            this.txtUsername.TabIndex = 1;
             // 
-            // textBox2
+            // txtPassword
             // 
-            textBox2.Location = new Point(106, 120);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(216, 23);
-            textBox2.TabIndex = 2;
+            this.txtPassword.Location = new System.Drawing.Point(91, 104);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(186, 20);
+            this.txtPassword.TabIndex = 2;
+            this.txtPassword.UseSystemPasswordChar = true;
             // 
-            // button2
+            // btnLogin
             // 
-            button2.Location = new Point(106, 201);
-            button2.Name = "button2";
-            button2.Size = new Size(91, 23);
-            button2.TabIndex = 3;
-            button2.Text = "Login";
-            button2.UseVisualStyleBackColor = true;
+            this.btnLogin.Location = new System.Drawing.Point(91, 174);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(78, 20);
+            this.btnLogin.TabIndex = 3;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Snap ITC", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(141, 12);
-            label1.Name = "label1";
-            label1.Size = new Size(113, 31);
-            label1.TabIndex = 4;
-            label1.Text = "LOGIN";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Snap ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(121, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(113, 31);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "LOGIN";
             // 
-            // label2
+            // lblUsername
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(20, 73);
-            label2.Name = "label2";
-            label2.Size = new Size(66, 15);
-            label2.TabIndex = 5;
-            label2.Text = "Username :";
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.Location = new System.Drawing.Point(17, 63);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(61, 13);
+            this.lblUsername.TabIndex = 5;
+            this.lblUsername.Text = "Username :";
             // 
-            // label3
+            // lblPassword
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(20, 128);
-            label3.Name = "label3";
-            label3.Size = new Size(63, 15);
-            label3.TabIndex = 6;
-            label3.Text = "Password :";
+            this.lblPassword.AutoSize = true;
+            this.lblPassword.Location = new System.Drawing.Point(17, 111);
+            this.lblPassword.Name = "lblPassword";
+            this.lblPassword.Size = new System.Drawing.Size(59, 13);
+            this.lblPassword.TabIndex = 6;
+            this.lblPassword.Text = "Password :";
             // 
             // checkBox1
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(106, 165);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(108, 19);
-            checkBox1.TabIndex = 7;
-            checkBox1.Text = "Show Password";
-            checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(91, 143);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(102, 17);
+            this.checkBox1.TabIndex = 7;
+            this.checkBox1.Text = "Show Password";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            button1.Location = new Point(231, 201);
-            button1.Name = "button1";
-            button1.Size = new Size(91, 23);
-            button1.TabIndex = 8;
-            button1.Text = "Cancel";
-            button1.UseVisualStyleBackColor = true;
+            this.button1.Location = new System.Drawing.Point(198, 174);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(78, 20);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Cancel";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // UcLogin
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.Control;
-            Controls.Add(button1);
-            Controls.Add(checkBox1);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(button2);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Name = "UcLogin";
-            Size = new Size(388, 253);
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.lblPassword);
+            this.Controls.Add(this.lblUsername);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnLogin);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.txtUsername);
+            this.Name = "UcLogin";
+            this.Size = new System.Drawing.Size(333, 219);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Button button2;
+        private TextBox txtUsername;
+        private TextBox txtPassword;
+        private Button btnLogin;
         private Label label1;
-        private Label label2;
-        private Label label3;
+        private Label lblUsername;
+        private Label lblPassword;
         private CheckBox checkBox1;
         private Button button1;
     }
