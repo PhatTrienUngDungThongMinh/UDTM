@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|c:\\users\\tjnk1\\onedrive\\m\u00E1y t\u00EDnh\\project\\udtm\\doanudtm\\doanudtm\\frmcustomermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|solutionrelative:doanudtm\\frmcustomermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|c:\\users\\tjnk1\\onedrive\\m\u00E1y t\u00EDnh\\project\\udtm\\doanudtm\\doanudtm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|solutionrelative:doanudtm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|c:\\users\\tjnk1\\onedrive\\m\u00E1y t\u00EDnh\\project\\udtm\\doanudtm\\doanudtm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D37FF1C7-EB95-45C2-98A7-29CF889E9F28}|DoAnUDTM\\DoAnUDTM.csproj|solutionrelative:doanudtm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -23,6 +31,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmCustomerManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmCustomerManagement.cs",
+              "RelativeDocumentMoniker": "DoAnUDTM\\frmCustomerManagement.cs",
+              "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\frmCustomerManagement.cs [Design]",
+              "RelativeToolTip": "DoAnUDTM\\frmCustomerManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:44:20.618Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\Login.cs",
+              "RelativeDocumentMoniker": "DoAnUDTM\\Login.cs",
+              "ToolTip": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\Login.cs",
+              "RelativeToolTip": "DoAnUDTM\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:41:13.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tjnk1\\OneDrive\\M\u00E1y t\u00EDnh\\Project\\UDTM\\DoAnUDTM\\DoAnUDTM\\Login.cs",
               "RelativeDocumentMoniker": "DoAnUDTM\\Login.cs",

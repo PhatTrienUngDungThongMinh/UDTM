@@ -52,6 +52,66 @@
     <Compile Include="frmCustomerManagement.Designer.cs">
       <DependentUpon>frmCustomerManagement.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDiscountAndPromotionManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiscountAndPromotionManagement.Designer.cs">
+      <DependentUpon>frmDiscountAndPromotionManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployeeAccountManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployeeAccountManagement.Designer.cs">
+      <DependentUpon>frmEmployeeAccountManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHome.Designer.cs">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInventoryManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInventoryManagement.Designer.cs">
+      <DependentUpon>frmInventoryManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrderManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrderManagement.Designer.cs">
+      <DependentUpon>frmOrderManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPeriodicReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPeriodicReport.Designer.cs">
+      <DependentUpon>frmPeriodicReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductCategorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductCategorization.Designer.cs">
+      <DependentUpon>frmProductCategorization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductManagement.Designer.cs">
+      <DependentUpon>frmProductManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRoleManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRoleManagement.Designer.cs">
+      <DependentUpon>frmRoleManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmShippingManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShippingManagement.Designer.cs">
+      <DependentUpon>frmShippingManagement.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
