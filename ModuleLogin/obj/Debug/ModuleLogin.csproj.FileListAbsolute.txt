@@ -4,3 +4,12 @@ C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\ModuleLogin\obj\Debug\M
 C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\ModuleLogin\obj\Debug\ModuleLogin.csproj.CoreCompileInputs.cache
 C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\ModuleLogin\obj\Debug\ModuleLogin.dll
 C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\ModuleLogin\obj\Debug\ModuleLogin.pdb
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\ModuleLogin\bin\Debug\ModuleLogin.dll
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\ModuleLogin\bin\Debug\ModuleLogin.pdb
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\ModuleLogin\obj\Debug\ModuleLogin.csproj.AssemblyReference.cache
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\ModuleLogin\obj\Debug\ModuleLogin.UcLogin.resources
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\ModuleLogin\obj\Debug\ModuleLogin.csproj.GenerateResource.cache
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\ModuleLogin\obj\Debug\ModuleLogin.csproj.CoreCompileInputs.cache
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\ModuleLogin\obj\Debug\ModuleLogin.dll
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\ModuleLogin\obj\Debug\ModuleLogin.pdb
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\ModuleLogin\obj\Debug\ModuleLogin.UcCauHinh.resources
