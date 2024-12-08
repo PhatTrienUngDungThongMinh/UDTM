@@ -31,213 +31,215 @@ namespace DoAnUDTM
         /// </summary>
         private void InitializeComponent()
         {
-            groupBox2 = new GroupBox();
-            button4 = new Button();
-            button5 = new Button();
-            button1 = new Button();
-            button2 = new Button();
-            groupBox1 = new GroupBox();
-            textBox5 = new TextBox();
-            textBox4 = new TextBox();
-            label5 = new Label();
-            label4 = new Label();
-            label3 = new Label();
-            textBox3 = new TextBox();
-            label2 = new Label();
-            textBox2 = new TextBox();
-            label1 = new Label();
-            textBox1 = new TextBox();
-            groupBox3 = new GroupBox();
-            dataGridView1 = new DataGridView();
-            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            groupBox2.SuspendLayout();
-            groupBox1.SuspendLayout();
-            groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            SuspendLayout();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.DsKhuyenMai = new System.Windows.Forms.DataGridView();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DsKhuyenMai)).BeginInit();
+            this.SuspendLayout();
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(button4);
-            groupBox2.Controls.Add(button5);
-            groupBox2.Controls.Add(button1);
-            groupBox2.Controls.Add(button2);
-            groupBox2.Location = new Point(6, 419);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(603, 68);
-            groupBox2.TabIndex = 20;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Tác Vụ";
+            this.groupBox2.Controls.Add(this.button4);
+            this.groupBox2.Controls.Add(this.button5);
+            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Location = new System.Drawing.Point(5, 363);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(517, 59);
+            this.groupBox2.TabIndex = 20;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Tác Vụ";
             // 
             // button4
             // 
-            button4.Location = new Point(480, 22);
-            button4.Name = "button4";
-            button4.Size = new Size(75, 23);
-            button4.TabIndex = 14;
-            button4.Text = "Hủy";
-            button4.UseVisualStyleBackColor = true;
+            this.button4.Location = new System.Drawing.Point(411, 19);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(64, 20);
+            this.button4.TabIndex = 14;
+            this.button4.Text = "Hủy";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            button5.Location = new Point(331, 22);
-            button5.Name = "button5";
-            button5.Size = new Size(75, 23);
-            button5.TabIndex = 15;
-            button5.Text = "Sửa";
-            button5.UseVisualStyleBackColor = true;
+            this.button5.Location = new System.Drawing.Point(284, 19);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(64, 20);
+            this.button5.TabIndex = 15;
+            this.button5.Text = "Sửa";
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            button1.Location = new Point(59, 22);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 11;
-            button1.Text = "Thêm";
-            button1.UseVisualStyleBackColor = true;
+            this.button1.Location = new System.Drawing.Point(51, 19);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(64, 20);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Thêm";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            button2.Location = new Point(195, 22);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 12;
-            button2.Text = "Lưu";
-            button2.UseVisualStyleBackColor = true;
+            this.button2.Location = new System.Drawing.Point(167, 19);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(64, 20);
+            this.button2.TabIndex = 12;
+            this.button2.Text = "Lưu";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(textBox5);
-            groupBox1.Controls.Add(textBox4);
-            groupBox1.Controls.Add(label5);
-            groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(textBox3);
-            groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(textBox2);
-            groupBox1.Controls.Add(label1);
-            groupBox1.Controls.Add(textBox1);
-            groupBox1.Location = new Point(6, 5);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(603, 145);
-            groupBox1.TabIndex = 17;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Thông Tin Khuyến Mãi";
+            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Location = new System.Drawing.Point(5, 4);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(517, 126);
+            this.groupBox1.TabIndex = 17;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Thông Tin Khuyến Mãi";
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(381, 26);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(167, 23);
-            textBox5.TabIndex = 12;
+            this.textBox5.Location = new System.Drawing.Point(327, 23);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(144, 20);
+            this.textBox5.TabIndex = 12;
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(381, 66);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(167, 23);
-            textBox4.TabIndex = 11;
+            this.textBox4.Location = new System.Drawing.Point(327, 57);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(144, 20);
+            this.textBox4.TabIndex = 11;
             // 
             // label5
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(307, 69);
-            label5.Name = "label5";
-            label5.Size = new Size(57, 15);
-            label5.TabIndex = 10;
-            label5.Text = "Điều Kiện";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(263, 60);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(53, 13);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Điều Kiện";
             // 
             // label4
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(307, 30);
-            label4.Name = "label4";
-            label4.Size = new Size(57, 15);
-            label4.TabIndex = 8;
-            label4.Text = "Số Lượng";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(263, 26);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(53, 13);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Số Lượng";
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(7, 103);
-            label3.Name = "label3";
-            label3.Size = new Size(39, 15);
-            label3.TabIndex = 6;
-            label3.Text = "Giá Tri";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 89);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(38, 13);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Giá Tri";
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(103, 104);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(167, 23);
-            textBox3.TabIndex = 5;
+            this.textBox3.Location = new System.Drawing.Point(88, 90);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(144, 20);
+            this.textBox3.TabIndex = 5;
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(7, 69);
-            label2.Name = "label2";
-            label2.Size = new Size(91, 15);
-            label2.TabIndex = 4;
-            label2.Text = "Tên Khuyến Mãi";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 60);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(85, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Tên Khuyến Mãi";
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(103, 64);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(167, 23);
-            textBox2.TabIndex = 3;
+            this.textBox2.Location = new System.Drawing.Point(88, 55);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(144, 20);
+            this.textBox2.TabIndex = 3;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(7, 30);
-            label1.Name = "label1";
-            label1.Size = new Size(90, 15);
-            label1.TabIndex = 2;
-            label1.Text = "Mã Khuyến Mãi";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 26);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(81, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Mã Khuyến Mãi";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(103, 26);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(167, 23);
-            textBox1.TabIndex = 0;
+            this.textBox1.Location = new System.Drawing.Point(88, 23);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(144, 20);
+            this.textBox1.TabIndex = 0;
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(dataGridView1);
-            groupBox3.Location = new Point(6, 156);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(603, 257);
-            groupBox3.TabIndex = 18;
-            groupBox3.TabStop = false;
-            groupBox3.Text = "Danh Sách Khuyễn Mãi";
+            this.groupBox3.Controls.Add(this.DsKhuyenMai);
+            this.groupBox3.Location = new System.Drawing.Point(5, 135);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(517, 223);
+            this.groupBox3.TabIndex = 18;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Danh Sách Khuyễn Mãi";
             // 
-            // dataGridView1
+            // DsKhuyenMai
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(6, 22);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(585, 222);
-            dataGridView1.TabIndex = 0;
+            this.DsKhuyenMai.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DsKhuyenMai.Location = new System.Drawing.Point(5, 19);
+            this.DsKhuyenMai.Name = "DsKhuyenMai";
+            this.DsKhuyenMai.Size = new System.Drawing.Size(501, 192);
+            this.DsKhuyenMai.TabIndex = 0;
             // 
             // frmDiscountAndPromotionManagement
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(635, 503);
-            Controls.Add(groupBox2);
-            Controls.Add(groupBox1);
-            Controls.Add(groupBox3);
-            Name = "frmDiscountAndPromotionManagement";
-            Text = "frmDiscountAndPromotionManagement";
-            groupBox2.ResumeLayout(false);
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
-            groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(544, 436);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBox3);
+            this.Name = "frmDiscountAndPromotionManagement";
+            this.Text = "frmDiscountAndPromotionManagement";
+            this.Load += new System.EventHandler(this.frmDiscountAndPromotionManagement_Load);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.DsKhuyenMai)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
@@ -258,7 +260,7 @@ namespace DoAnUDTM
         private Label label4;
         private Label label3;
         private TextBox textBox3;
-        private DataGridView dataGridView1;
+        private DataGridView DsKhuyenMai;
         private TextBox textBox5;
         private TextBox textBox4;
     }

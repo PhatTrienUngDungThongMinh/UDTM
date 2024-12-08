@@ -130,6 +130,9 @@
     <EmbeddedResource Include="frmCustomerManagement.resx">
       <DependentUpon>frmCustomerManagement.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDiscountAndPromotionManagement.resx">
+      <DependentUpon>frmDiscountAndPromotionManagement.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEmployeeAccountManagement.resx">
       <DependentUpon>frmEmployeeAccountManagement.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,6 +141,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAddUserToPermissionGroup.resx">
       <DependentUpon>frmAddUserToPermissionGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInventoryManagement.resx">
+      <DependentUpon>frmInventoryManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmOrderManagement.resx">
       <DependentUpon>frmOrderManagement.cs</DependentUpon>

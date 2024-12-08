@@ -17,16 +17,13 @@ namespace BLL
             
         }
 
-        // Lấy danh sách tất cả các Products
         public List<Product> GetAllProducts()
         {
             return productDAL.GetAllProducts();
         }
 
-        // Thêm một Product mới
         public void AddProduct(Product product)
         {
-            // Kiểm tra hợp lệ dữ liệu
             if (string.IsNullOrWhiteSpace(product.ProductName))
             {
                 throw new ArgumentException("Tên Product không được để trống.");
@@ -42,14 +39,11 @@ namespace BLL
                 throw new ArgumentException("Số lượng tồn kho không được âm.");
             }
 
-            // Thêm Product thông qua DAL
             productDAL.AddProduct(product);
         }
 
-        // Cập nhật một Product hiện có
         public void UpdateProduct(Product product)
         {
-            // Kiểm tra hợp lệ dữ liệu
             if (string.IsNullOrWhiteSpace(product.ProductName))
             {
                 throw new ArgumentException("Tên Product không được để trống.");
@@ -65,16 +59,11 @@ namespace BLL
                 throw new ArgumentException("Số lượng tồn kho không được âm.");
             }
 
-            // Cập nhật Product thông qua DAL
             productDAL.UpdateProduct(product);
         }
 
-        // Xóa một Product
         public void DeleteProduct(int productId)
         {
-            // Có thể thêm logic kiểm tra trước khi xóa, ví dụ: kiểm tra có đơn hàng liên quan không
-
-            // Xóa Product thông qua DAL
             productDAL.DeleteProduct(productId);
         }
     }

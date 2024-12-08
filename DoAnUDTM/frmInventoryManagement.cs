@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,15 @@ namespace DoAnUDTM
 {
     public partial class frmInventoryManagement : Form
     {
+        DeliveryReceiptBLL deliveryReceipt = new DeliveryReceiptBLL();
         public frmInventoryManagement()
         {
             InitializeComponent();
+        }
+
+        private void frmInventoryManagement_Load(object sender, EventArgs e)
+        {
+            DsPhieuNhap.DataSource = deliveryReceipt.GetAllDeliveryReceipts();
         }
     }
 }

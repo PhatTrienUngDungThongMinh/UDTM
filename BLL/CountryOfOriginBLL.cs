@@ -10,51 +10,41 @@ namespace BLL
 {
     public class CountryOfOriginBLL
     {
-        private readonly CountryOfOriginDAL countryDAL;
+        private readonly CountryOfOriginDAL countryDAL = new CountryOfOriginDAL();
 
         public CountryOfOriginBLL()
         {
             
         }
 
-        // Lấy danh sách tất cả các CountryOfOrigin
         public List<CountryOfOrigin> GetAllCountries()
         {
             return countryDAL.GetAllCountries();
         }
 
-        // Thêm một CountryOfOrigin mới
         public void AddCountry(CountryOfOrigin country)
         {
-            // Kiểm tra hợp lệ dữ liệu
             if (string.IsNullOrWhiteSpace(country.CountryName))
             {
                 throw new ArgumentException("Tên Quốc Gia không được để trống.");
             }
 
-            // Thêm Country thông qua DAL
             countryDAL.AddCountry(country);
         }
 
-        // Cập nhật một CountryOfOrigin hiện có
         public void UpdateCountry(CountryOfOrigin country)
         {
-            // Kiểm tra hợp lệ dữ liệu
             if (string.IsNullOrWhiteSpace(country.CountryName))
             {
                 throw new ArgumentException("Tên Quốc Gia không được để trống.");
             }
 
-            // Cập nhật Country thông qua DAL
             countryDAL.UpdateCountry(country);
         }
 
-        // Xóa một CountryOfOrigin
         public void DeleteCountry(int countryId)
         {
-            // Có thể thêm logic kiểm tra trước khi xóa
 
-            // Xóa Country thông qua DAL
             countryDAL.DeleteCountry(countryId);
         }
     }

@@ -10,23 +10,20 @@ namespace BLL
 {
     public class DeliveryReceiptDetailBLL
     {
-        private readonly DeliveryReceiptDetailDAL deliveryReceiptDetailDAL;
+        private readonly DeliveryReceiptDetailDAL deliveryReceiptDetailDAL = new DeliveryReceiptDetailDAL();
 
         public DeliveryReceiptDetailBLL()
         {
             
         }
 
-        // Lấy danh sách tất cả các DeliveryReceiptDetail
         public List<DeliveryReceiptDetail> GetAllDeliveryReceiptDetails()
         {
             return deliveryReceiptDetailDAL.GetAllDeliveryReceiptDetails();
         }
 
-        // Thêm một DeliveryReceiptDetail mới
         public void AddDeliveryReceiptDetail(DeliveryReceiptDetail detail)
         {
-            // Kiểm tra hợp lệ dữ liệu
             if (detail.Quantity <= 0)
             {
                 throw new ArgumentException("Số lượng phải lớn hơn 0.");
@@ -37,14 +34,11 @@ namespace BLL
                 throw new ArgumentException("Giá đơn vị không được âm.");
             }
 
-            // Thêm DeliveryReceiptDetail thông qua DAL
             deliveryReceiptDetailDAL.AddDeliveryReceiptDetail(detail);
         }
 
-        // Cập nhật một DeliveryReceiptDetail hiện có
         public void UpdateDeliveryReceiptDetail(DeliveryReceiptDetail detail)
         {
-            // Kiểm tra hợp lệ dữ liệu
             if (detail.Quantity <= 0)
             {
                 throw new ArgumentException("Số lượng phải lớn hơn 0.");
@@ -55,16 +49,11 @@ namespace BLL
                 throw new ArgumentException("Giá đơn vị không được âm.");
             }
 
-            // Cập nhật DeliveryReceiptDetail thông qua DAL
             deliveryReceiptDetailDAL.UpdateDeliveryReceiptDetail(detail);
         }
 
-        // Xóa một DeliveryReceiptDetail
         public void DeleteDeliveryReceiptDetail(int detailId)
         {
-            // Có thể thêm logic kiểm tra trước khi xóa
-
-            // Xóa DeliveryReceiptDetail thông qua DAL
             deliveryReceiptDetailDAL.DeleteDeliveryReceiptDetail(detailId);
         }
     }

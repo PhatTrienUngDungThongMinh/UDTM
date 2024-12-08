@@ -30,7 +30,7 @@ namespace DoAnUDTM
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.DsKhachHang = new System.Windows.Forms.DataGridView();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -49,23 +49,23 @@ namespace DoAnUDTM
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DsKhachHang)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // DsKhachHang
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(5, 19);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(784, 296);
-            this.dataGridView1.TabIndex = 0;
+            this.DsKhachHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DsKhachHang.Location = new System.Drawing.Point(5, 19);
+            this.DsKhachHang.Name = "DsKhachHang";
+            this.DsKhachHang.Size = new System.Drawing.Size(784, 296);
+            this.DsKhachHang.TabIndex = 0;
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.dataGridView1);
+            this.groupBox3.Controls.Add(this.DsKhachHang);
             this.groupBox3.Location = new System.Drawing.Point(9, 144);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(795, 321);
@@ -245,7 +245,8 @@ namespace DoAnUDTM
             this.Controls.Add(this.groupBox2);
             this.Name = "frmCustomerManagement";
             this.Text = "UserManagement";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.frmCustomerManagement_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.DsKhachHang)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
@@ -256,7 +257,7 @@ namespace DoAnUDTM
 
         #endregion
 
-        private DataGridView dataGridView1;
+        private DataGridView DsKhachHang;
         private GroupBox groupBox3;
         private Button button1;
         private GroupBox groupBox2;

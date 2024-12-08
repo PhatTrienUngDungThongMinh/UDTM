@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace DoAnUDTM
 {
     public partial class frmOrderManagement : Form
     {
+        OrderCustomerBLL orderCustomer = new OrderCustomerBLL();
         public frmOrderManagement()
         {
             InitializeComponent();
@@ -32,6 +34,9 @@ namespace DoAnUDTM
 
         }
 
-
+        private void frmOrderManagement_Load(object sender, EventArgs e)
+        {
+            DsHoaDon.DataSource = orderCustomer.GetAllOrderCustomers();
+        }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,15 @@ namespace DoAnUDTM
 {
     public partial class frmDiscountAndPromotionManagement : Form
     {
+        PromotionBLL promotion = new PromotionBLL();
         public frmDiscountAndPromotionManagement()
         {
             InitializeComponent();
+        }
+
+        private void frmDiscountAndPromotionManagement_Load(object sender, EventArgs e)
+        {
+            DsKhuyenMai.DataSource = promotion.GetAllPromotions();
         }
     }
 }

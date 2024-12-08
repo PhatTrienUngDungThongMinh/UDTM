@@ -41,7 +41,7 @@
             this.cmbActiveStatus = new System.Windows.Forms.ComboBox();
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
-            this.dgvEmployees = new System.Windows.Forms.DataGridView();
+            this.DsNhanVien = new System.Windows.Forms.DataGridView();
             this.panelPagination = new System.Windows.Forms.Panel();
             this.lblPageInfo = new System.Windows.Forms.Label();
             this.btnFirst = new System.Windows.Forms.Button();
@@ -52,7 +52,7 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.panelSearch.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvEmployees)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DsNhanVien)).BeginInit();
             this.panelPagination.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -179,13 +179,13 @@
             this.btnReset.Text = "Mặc định";
             this.btnReset.UseVisualStyleBackColor = true;
             // 
-            // dgvEmployees
+            // DsNhanVien
             // 
-            this.dgvEmployees.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvEmployees.Location = new System.Drawing.Point(6, 20);
-            this.dgvEmployees.Name = "dgvEmployees";
-            this.dgvEmployees.Size = new System.Drawing.Size(573, 421);
-            this.dgvEmployees.TabIndex = 10;
+            this.DsNhanVien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DsNhanVien.Location = new System.Drawing.Point(6, 20);
+            this.DsNhanVien.Name = "DsNhanVien";
+            this.DsNhanVien.Size = new System.Drawing.Size(573, 421);
+            this.DsNhanVien.TabIndex = 10;
             // 
             // panelPagination
             // 
@@ -255,10 +255,10 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.dgvEmployees);
-            this.groupBox2.Location = new System.Drawing.Point(226, 20);
+            this.groupBox2.Controls.Add(this.DsNhanVien);
+            this.groupBox2.Location = new System.Drawing.Point(226, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(585, 447);
+            this.groupBox2.Size = new System.Drawing.Size(585, 455);
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh Sách Nhân Viên";
@@ -272,11 +272,12 @@
             this.Controls.Add(this.panelSearch);
             this.Name = "frmEmployeeAccountManagement";
             this.Text = "Quản lý nhân viên";
+            this.Load += new System.EventHandler(this.frmEmployeeAccountManagement_Load);
             this.panelSearch.ResumeLayout(false);
             this.panelSearch.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvEmployees)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DsNhanVien)).EndInit();
             this.panelPagination.ResumeLayout(false);
             this.panelPagination.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -295,7 +296,7 @@
         private System.Windows.Forms.DateTimePicker dtpTo;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnReset;
-        private System.Windows.Forms.DataGridView dgvEmployees;
+        private System.Windows.Forms.DataGridView DsNhanVien;
         private System.Windows.Forms.Panel panelPagination;
         private System.Windows.Forms.Label lblPageInfo;
         private System.Windows.Forms.Button btnFirst;

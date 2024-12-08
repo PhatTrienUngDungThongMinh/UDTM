@@ -10,23 +10,20 @@ namespace BLL
 {
     public class PromotionBLL
     {
-        private readonly PromotionDAL promotionDAL;
+        private readonly PromotionDAL promotionDAL = new PromotionDAL();
 
         public PromotionBLL()
         {
             
         }
 
-        // Lấy danh sách tất cả các Promotions
         public List<Promotion> GetAllPromotions()
         {
             return promotionDAL.GetAllPromotions();
         }
 
-        // Thêm một Promotion mới
         public void AddPromotion(Promotion promotion)
         {
-            // Kiểm tra hợp lệ dữ liệu
             if (string.IsNullOrWhiteSpace(promotion.PromotionName))
             {
                 throw new ArgumentException("Tên Promotion không được để trống.");
@@ -47,14 +44,11 @@ namespace BLL
                 throw new ArgumentException("Ngày bắt đầu phải nhỏ hơn hoặc bằng ngày kết thúc.");
             }
 
-            // Thêm Promotion thông qua DAL
             promotionDAL.AddPromotion(promotion);
         }
 
-        // Cập nhật một Promotion hiện có
         public void UpdatePromotion(Promotion promotion)
         {
-            // Kiểm tra hợp lệ dữ liệu
             if (string.IsNullOrWhiteSpace(promotion.PromotionName))
             {
                 throw new ArgumentException("Tên Promotion không được để trống.");
@@ -75,16 +69,12 @@ namespace BLL
                 throw new ArgumentException("Ngày bắt đầu phải nhỏ hơn hoặc bằng ngày kết thúc.");
             }
 
-            // Cập nhật Promotion thông qua DAL
             promotionDAL.UpdatePromotion(promotion);
         }
 
-        // Xóa một Promotion
         public void DeletePromotion(int promotionId)
         {
-            // Có thể thêm logic kiểm tra trước khi xóa
 
-            // Xóa Promotion thông qua DAL
             promotionDAL.DeletePromotion(promotionId);
         }
     }

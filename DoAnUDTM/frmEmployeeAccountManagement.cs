@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,15 @@ namespace DoAnUDTM
 {
     public partial class frmEmployeeAccountManagement : Form
     {
+        EmployeeBLL employee = new EmployeeBLL();
         public frmEmployeeAccountManagement()
         {
             InitializeComponent();
+        }
+
+        private void frmEmployeeAccountManagement_Load(object sender, EventArgs e)
+        {
+            DsNhanVien.DataSource = employee.GetAllEmployees();
         }
     }
 }

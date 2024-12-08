@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,10 +13,15 @@ namespace DoAnUDTM
 {
     public partial class frmCustomerManagement : Form
     {
+        CustomerBLL customer = new CustomerBLL();
         public frmCustomerManagement()
         {
             InitializeComponent();
         }
 
+        private void frmCustomerManagement_Load(object sender, EventArgs e)
+        {
+            DsKhachHang.DataSource = customer.GetAllCustomers();
+        }
     }
 }

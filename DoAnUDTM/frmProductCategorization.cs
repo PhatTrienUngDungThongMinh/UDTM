@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,15 @@ namespace DoAnUDTM
 {
     public partial class frmProductCategorization : Form
     {
+        CategoryBLL category  = new CategoryBLL();
         public frmProductCategorization()
         {
             InitializeComponent();
+        }
+
+        private void frmProductCategorization_Load(object sender, EventArgs e)
+        {
+            DsDanhMuc.DataSource = category.GetAllCategories();
         }
     }
 }

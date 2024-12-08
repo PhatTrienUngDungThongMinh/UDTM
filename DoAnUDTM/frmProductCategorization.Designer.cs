@@ -38,7 +38,7 @@ namespace DoAnUDTM
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button6 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.DsDanhMuc = new System.Windows.Forms.DataGridView();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -46,7 +46,7 @@ namespace DoAnUDTM
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DsDanhMuc)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -106,7 +106,7 @@ namespace DoAnUDTM
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.dataGridView1);
+            this.groupBox3.Controls.Add(this.DsDanhMuc);
             this.groupBox3.Location = new System.Drawing.Point(6, 142);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(797, 329);
@@ -114,13 +114,13 @@ namespace DoAnUDTM
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Danh Sách Dan h Mục";
             // 
-            // dataGridView1
+            // DsDanhMuc
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 19);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(785, 304);
-            this.dataGridView1.TabIndex = 0;
+            this.DsDanhMuc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DsDanhMuc.Location = new System.Drawing.Point(6, 19);
+            this.DsDanhMuc.Name = "DsDanhMuc";
+            this.DsDanhMuc.Size = new System.Drawing.Size(785, 304);
+            this.DsDanhMuc.TabIndex = 0;
             // 
             // button5
             // 
@@ -182,10 +182,11 @@ namespace DoAnUDTM
             this.Controls.Add(this.groupBox1);
             this.Name = "frmProductCategorization";
             this.Text = "frmProductCategorization";
+            this.Load += new System.EventHandler(this.frmProductCategorization_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DsDanhMuc)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -200,7 +201,7 @@ namespace DoAnUDTM
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView DsDanhMuc;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button2;

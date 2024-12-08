@@ -10,7 +10,7 @@ namespace BLL
 {
     public class WarrantyPolicyBLL
     {
-        private readonly WarrantyPolicyDAL warrantyPolicyDAL;
+        private readonly WarrantyPolicyDAL warrantyPolicyDAL = new WarrantyPolicyDAL();
 
         public WarrantyPolicyBLL()
         {

@@ -31,9 +31,13 @@ namespace DoAnUDTM
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.gr = new System.Windows.Forms.GroupBox();
+            this.DsHoaDon = new System.Windows.Forms.DataGridView();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -43,41 +47,37 @@ namespace DoAnUDTM
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.gr.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DsHoaDon)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox2
+            // gr
             // 
-            this.groupBox2.Controls.Add(this.dataGridView1);
-            this.groupBox2.Location = new System.Drawing.Point(12, 178);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(798, 290);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.gr.Controls.Add(this.DsHoaDon);
+            this.gr.Location = new System.Drawing.Point(12, 178);
+            this.gr.Name = "gr";
+            this.gr.Size = new System.Drawing.Size(798, 290);
+            this.gr.TabIndex = 1;
+            this.gr.TabStop = false;
+            this.gr.Text = "Danh sách hóa đơn đã bán";
             // 
-            // dataGridView1
+            // DsHoaDon
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 19);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(786, 265);
-            this.dataGridView1.TabIndex = 0;
+            this.DsHoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DsHoaDon.Location = new System.Drawing.Point(6, 19);
+            this.DsHoaDon.Name = "DsHoaDon";
+            this.DsHoaDon.Size = new System.Drawing.Size(786, 265);
+            this.DsHoaDon.TabIndex = 0;
             // 
             // groupBox3
             // 
@@ -91,6 +91,42 @@ namespace DoAnUDTM
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Tác Vụ";
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(438, 12);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(104, 30);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(631, 12);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(104, 30);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(225, 12);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(104, 30);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(68, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(104, 30);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -192,53 +228,13 @@ namespace DoAnUDTM
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông Tin Chung";
             // 
-            // textBox1
+            // textBox8
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(123, 17);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(221, 20);
-            this.textBox1.TabIndex = 31;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(123, 128);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(221, 20);
-            this.textBox2.TabIndex = 32;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(123, 53);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(221, 20);
-            this.textBox3.TabIndex = 33;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Enabled = false;
-            this.textBox4.Location = new System.Drawing.Point(123, 95);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(221, 20);
-            this.textBox4.TabIndex = 34;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Enabled = false;
-            this.textBox5.Location = new System.Drawing.Point(548, 17);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(221, 20);
-            this.textBox5.TabIndex = 35;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Enabled = false;
-            this.textBox6.Location = new System.Drawing.Point(548, 58);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(221, 20);
-            this.textBox6.TabIndex = 36;
+            this.textBox8.Enabled = false;
+            this.textBox8.Location = new System.Drawing.Point(548, 128);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(221, 20);
+            this.textBox8.TabIndex = 38;
             // 
             // textBox7
             // 
@@ -248,49 +244,53 @@ namespace DoAnUDTM
             this.textBox7.Size = new System.Drawing.Size(221, 20);
             this.textBox7.TabIndex = 37;
             // 
-            // textBox8
+            // textBox6
             // 
-            this.textBox8.Enabled = false;
-            this.textBox8.Location = new System.Drawing.Point(548, 128);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(221, 20);
-            this.textBox8.TabIndex = 38;
+            this.textBox6.Enabled = false;
+            this.textBox6.Location = new System.Drawing.Point(548, 58);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(221, 20);
+            this.textBox6.TabIndex = 36;
             // 
-            // button1
+            // textBox5
             // 
-            this.button1.Location = new System.Drawing.Point(68, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 30);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.textBox5.Enabled = false;
+            this.textBox5.Location = new System.Drawing.Point(548, 17);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(221, 20);
+            this.textBox5.TabIndex = 35;
             // 
-            // button2
+            // textBox4
             // 
-            this.button2.Location = new System.Drawing.Point(225, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 30);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.textBox4.Enabled = false;
+            this.textBox4.Location = new System.Drawing.Point(123, 95);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(221, 20);
+            this.textBox4.TabIndex = 34;
             // 
-            // button3
+            // textBox3
             // 
-            this.button3.Location = new System.Drawing.Point(631, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(104, 30);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.textBox3.Enabled = false;
+            this.textBox3.Location = new System.Drawing.Point(123, 53);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(221, 20);
+            this.textBox3.TabIndex = 33;
             // 
-            // button4
+            // textBox2
             // 
-            this.button4.Location = new System.Drawing.Point(438, 12);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(104, 30);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.textBox2.Enabled = false;
+            this.textBox2.Location = new System.Drawing.Point(123, 128);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(221, 20);
+            this.textBox2.TabIndex = 32;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(123, 17);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(221, 20);
+            this.textBox1.TabIndex = 31;
             // 
             // frmOrderManagement
             // 
@@ -298,12 +298,13 @@ namespace DoAnUDTM
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(849, 552);
             this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.gr);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmOrderManagement";
             this.Text = "frmOrderManagement";
-            this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.frmOrderManagement_Load);
+            this.gr.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.DsHoaDon)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -312,9 +313,9 @@ namespace DoAnUDTM
         }
 
         #endregion
-        private GroupBox groupBox2;
+        private GroupBox gr;
         private GroupBox groupBox3;
-        private DataGridView dataGridView1;
+        private DataGridView DsHoaDon;
         private Button button4;
         private Button button3;
         private Button button2;

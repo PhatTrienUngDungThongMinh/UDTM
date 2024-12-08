@@ -10,23 +10,20 @@ namespace BLL
 {
     public class CustomerBLL
     {
-        private readonly CustomerDAL customerDAL;
+        private readonly CustomerDAL customerDAL = new CustomerDAL();
 
         public CustomerBLL()
         {
             
         }
 
-        // Lấy danh sách tất cả các Customer
         public List<Customer> GetAllCustomers()
         {
             return customerDAL.GetAllCustomers();
         }
 
-        // Thêm một Customer mới
         public void AddCustomer(Customer customer)
         {
-            // Kiểm tra hợp lệ dữ liệu
             if (string.IsNullOrWhiteSpace(customer.CustomerName))
             {
                 throw new ArgumentException("Tên Customer không được để trống.");
@@ -37,14 +34,11 @@ namespace BLL
                 throw new ArgumentException("Email không được để trống.");
             }
 
-            // Thêm Customer thông qua DAL
             customerDAL.AddCustomer(customer);
         }
 
-        // Cập nhật một Customer hiện có
         public void UpdateCustomer(Customer customer)
         {
-            // Kiểm tra hợp lệ dữ liệu
             if (string.IsNullOrWhiteSpace(customer.CustomerName))
             {
                 throw new ArgumentException("Tên Customer không được để trống.");
@@ -55,16 +49,12 @@ namespace BLL
                 throw new ArgumentException("Email không được để trống.");
             }
 
-            // Cập nhật Customer thông qua DAL
             customerDAL.UpdateCustomer(customer);
         }
 
-        // Xóa một Customer
         public void DeleteCustomer(string customerId)
         {
-            // Có thể thêm logic kiểm tra trước khi xóa
 
-            // Xóa Customer thông qua DAL
             customerDAL.DeleteCustomer(customerId);
         }
     }
