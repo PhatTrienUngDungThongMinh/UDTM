@@ -12,9 +12,9 @@ namespace BLL
     {
         private readonly ImageDAL imageDAL;
 
-        public ImageBLL(string connectionString)
+        public ImageBLL()
         {
-            imageDAL = new ImageDAL(connectionString);
+            
         }
 
         // Lấy danh sách tất cả các Images

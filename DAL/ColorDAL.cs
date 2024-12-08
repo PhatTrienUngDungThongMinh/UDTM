@@ -11,25 +11,22 @@ namespace DAL
     {
         private readonly DBDataContext db;
 
-        public ColorDAL(string connectionString)
+        public ColorDAL( )
         {
-            db = new DBDataContext(connectionString);
+            db = new DBDataContext();
         }
 
-        // Lấy danh sách các Color từ cơ sở dữ liệu
         public List<Color> GetAllColors()
         {
             return db.Colors.ToList();
         }
 
-        // Thêm Color vào cơ sở dữ liệu
         public void AddColor(Color color)
         {
             db.Colors.InsertOnSubmit(color);
             db.SubmitChanges();
         }
 
-        // Cập nhật Color trong cơ sở dữ liệu
         public void UpdateColor(Color color)
         {
             var existingColor = db.Colors.SingleOrDefault(c => c.id == color.id);
@@ -47,7 +44,6 @@ namespace DAL
             }
         }
 
-        // Xóa Color khỏi cơ sở dữ liệu
         public void DeleteColor(int colorId)
         {
             var color = db.Colors.SingleOrDefault(c => c.id == colorId);

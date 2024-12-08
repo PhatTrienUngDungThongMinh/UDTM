@@ -12,9 +12,9 @@ namespace BLL
     {
         private readonly CountryOfOriginDAL countryDAL;
 
-        public CountryOfOriginBLL(string connectionString)
+        public CountryOfOriginBLL()
         {
-            countryDAL = new CountryOfOriginDAL(connectionString);
+            
         }
 
         // Lấy danh sách tất cả các CountryOfOrigin

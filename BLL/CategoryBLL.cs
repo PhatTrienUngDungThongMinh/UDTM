@@ -13,11 +13,13 @@ namespace BLL
 
         public CategoryBLL()
         {
+
         }
 
         // Lấy danh sách tất cả các Category
         public List<Category> GetAllCategories()
         {
+            Console.WriteLine(categoryDAL.GetAllCategories());
             return categoryDAL.GetAllCategories();
         }
 

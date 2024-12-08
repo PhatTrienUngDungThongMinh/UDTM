@@ -12,9 +12,9 @@ namespace BLL
     {
         private readonly CustomerDAL customerDAL;
 
-        public CustomerBLL(string connectionString)
+        public CustomerBLL()
         {
-            customerDAL = new CustomerDAL(connectionString);
+            
         }
 
         // Lấy danh sách tất cả các Customer

@@ -11,25 +11,22 @@ namespace DAL
     {
         private readonly DBDataContext db;
 
-        public ScreenDAL(string connectionString)
+        public ScreenDAL()
         {
-            db = new DBDataContext(connectionString);
+            db = new DBDataContext();
         }
 
-        // Lấy danh sách các Screen từ cơ sở dữ liệu
         public List<DM_Screen> GetAllScreens()
         {
             return db.DM_Screens.ToList();
         }
 
-        // Thêm Screen vào cơ sở dữ liệu
         public void AddScreen(DM_Screen screen)
         {
             db.DM_Screens.InsertOnSubmit(screen);
             db.SubmitChanges();
         }
 
-        // Cập nhật Screen trong cơ sở dữ liệu
         public void UpdateScreen(DM_Screen screen)
         {
             var existingScreen = db.DM_Screens.SingleOrDefault(s => s.ScreenCode == screen.ScreenCode);
@@ -44,7 +41,6 @@ namespace DAL
             }
         }
 
-        // Xóa Screen khỏi cơ sở dữ liệu
         public void DeleteScreen(string screenCode)
         {
             var screen = db.DM_Screens.SingleOrDefault(s => s.ScreenCode == screenCode);

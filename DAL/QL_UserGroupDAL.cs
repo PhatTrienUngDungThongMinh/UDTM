@@ -11,25 +11,22 @@ namespace DAL
     {
         private readonly DBDataContext db;
 
-        public QL_UserGroupDAL(string connectionString)
+        public QL_UserGroupDAL()
         {
-            db = new DBDataContext(connectionString);
+            db = new DBDataContext();
         }
 
-        // Lấy danh sách các QL_UserGroups từ cơ sở dữ liệu
         public List<QL_UserGroup> GetAllQL_UserGroups()
         {
             return db.QL_UserGroups.ToList();
         }
 
-        // Thêm QL_UserGroup vào cơ sở dữ liệu
         public void AddQL_UserGroup(QL_UserGroup userGroup)
         {
             db.QL_UserGroups.InsertOnSubmit(userGroup);
             db.SubmitChanges();
         }
 
-        // Cập nhật QL_UserGroup trong cơ sở dữ liệu
         public void UpdateQL_UserGroup(QL_UserGroup userGroup)
         {
             var existingUserGroup = db.QL_UserGroups.SingleOrDefault(ug => ug.IDEmployees == userGroup.IDEmployees && ug.IDPositions == userGroup.IDPositions);
@@ -44,7 +41,6 @@ namespace DAL
             }
         }
 
-        // Xóa QL_UserGroup khỏi cơ sở dữ liệu
         public void DeleteQL_UserGroup(int employeeId, int positionId)
         {
             var userGroup = db.QL_UserGroups.SingleOrDefault(ug => ug.IDEmployees == employeeId && ug.IDPositions == positionId);

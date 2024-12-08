@@ -11,25 +11,22 @@ namespace DAL
     {
         private readonly DBDataContext db;
 
-        public PromotionDAL(string connectionString)
+        public PromotionDAL()
         {
-            db = new DBDataContext(connectionString);
+            db = new DBDataContext();
         }
 
-        // Lấy danh sách các Promotions từ cơ sở dữ liệu
         public List<Promotion> GetAllPromotions()
         {
             return db.Promotions.ToList();
         }
 
-        // Thêm Promotion vào cơ sở dữ liệu
         public void AddPromotion(Promotion promotion)
         {
             db.Promotions.InsertOnSubmit(promotion);
             db.SubmitChanges();
         }
 
-        // Cập nhật Promotion trong cơ sở dữ liệu
         public void UpdatePromotion(Promotion promotion)
         {
             var existingPromotion = db.Promotions.SingleOrDefault(p => p.id == promotion.id);
@@ -59,7 +56,6 @@ namespace DAL
             }
         }
 
-        // Xóa Promotion khỏi cơ sở dữ liệu
         public void DeletePromotion(int promotionId)
         {
             var promotion = db.Promotions.SingleOrDefault(p => p.id == promotionId);

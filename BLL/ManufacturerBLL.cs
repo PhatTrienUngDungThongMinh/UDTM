@@ -12,9 +12,9 @@ namespace BLL
     {
         private readonly ManufacturerDAL manufacturerDAL;
 
-        public ManufacturerBLL(string connectionString)
+        public ManufacturerBLL()
         {
-            manufacturerDAL = new ManufacturerDAL(connectionString);
+            
         }
 
         // Lấy danh sách tất cả các Manufacturers

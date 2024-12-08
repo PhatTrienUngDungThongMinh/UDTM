@@ -11,25 +11,22 @@ namespace DAL
     {
         private readonly DBDataContext db;
 
-        public PaymentMethodDAL(string connectionString)
+        public PaymentMethodDAL()
         {
-            db = new DBDataContext(connectionString);
+            db = new DBDataContext();
         }
 
-        // Lấy danh sách các PaymentMethods từ cơ sở dữ liệu
         public List<PaymentMethod> GetAllPaymentMethods()
         {
             return db.PaymentMethods.ToList();
         }
 
-        // Thêm PaymentMethod vào cơ sở dữ liệu
         public void AddPaymentMethod(PaymentMethod paymentMethod)
         {
             db.PaymentMethods.InsertOnSubmit(paymentMethod);
             db.SubmitChanges();
         }
 
-        // Cập nhật PaymentMethod trong cơ sở dữ liệu
         public void UpdatePaymentMethod(PaymentMethod paymentMethod)
         {
             var existingPaymentMethod = db.PaymentMethods.SingleOrDefault(pm => pm.id == paymentMethod.id);
@@ -55,7 +52,6 @@ namespace DAL
             }
         }
 
-        // Xóa PaymentMethod khỏi cơ sở dữ liệu
         public void DeletePaymentMethod(int paymentMethodId)
         {
             var paymentMethod = db.PaymentMethods.SingleOrDefault(pm => pm.id == paymentMethodId);

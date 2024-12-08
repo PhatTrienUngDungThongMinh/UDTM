@@ -11,25 +11,22 @@ namespace DAL
     {
         private readonly DBDataContext db;
 
-        public ProductSupplierDetailDAL(string connectionString)
+        public ProductSupplierDetailDAL()
         {
-            db = new DBDataContext(connectionString);
+            db = new DBDataContext();
         }
 
-        // Lấy danh sách các ProductSupplierDetails từ cơ sở dữ liệu
         public List<ProductSupplierDetail> GetAllProductSupplierDetails()
         {
             return db.ProductSupplierDetails.ToList();
         }
 
-        // Thêm ProductSupplierDetail vào cơ sở dữ liệu
         public void AddProductSupplierDetail(ProductSupplierDetail detail)
         {
             db.ProductSupplierDetails.InsertOnSubmit(detail);
             db.SubmitChanges();
         }
 
-        // Cập nhật ProductSupplierDetail trong cơ sở dữ liệu
         public void UpdateProductSupplierDetail(ProductSupplierDetail detail)
         {
             var existingDetail = db.ProductSupplierDetails.SingleOrDefault(d => d.id == detail.id);
@@ -49,7 +46,6 @@ namespace DAL
             }
         }
 
-        // Xóa ProductSupplierDetail khỏi cơ sở dữ liệu
         public void DeleteProductSupplierDetail(int detailId)
         {
             var detail = db.ProductSupplierDetails.SingleOrDefault(d => d.id == detailId);

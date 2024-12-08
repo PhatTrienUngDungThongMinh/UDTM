@@ -11,25 +11,22 @@ namespace DAL
     {
         private readonly DBDataContext db;
 
-        public SupplierDAL(string connectionString)
+        public SupplierDAL()
         {
-            db = new DBDataContext(connectionString);
+            db = new DBDataContext();
         }
 
-        // Lấy danh sách các Suppliers từ cơ sở dữ liệu
         public List<Supplier> GetAllSuppliers()
         {
             return db.Suppliers.ToList();
         }
 
-        // Thêm Supplier vào cơ sở dữ liệu
         public void AddSupplier(Supplier supplier)
         {
             db.Suppliers.InsertOnSubmit(supplier);
             db.SubmitChanges();
         }
 
-        // Cập nhật Supplier trong cơ sở dữ liệu
         public void UpdateSupplier(Supplier supplier)
         {
             var existingSupplier = db.Suppliers.SingleOrDefault(s => s.id == supplier.id);
@@ -50,7 +47,7 @@ namespace DAL
             }
         }
 
-        // Xóa Supplier khỏi cơ sở dữ liệu
+
         public void DeleteSupplier(int supplierId)
         {
             var supplier = db.Suppliers.SingleOrDefault(s => s.id == supplierId);

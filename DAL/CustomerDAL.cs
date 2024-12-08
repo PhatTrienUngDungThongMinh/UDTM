@@ -11,25 +11,22 @@ namespace DAL
     {
         private readonly DBDataContext db;
 
-        public CustomerDAL(string connectionString)
+        public CustomerDAL()
         {
-            db = new DBDataContext(connectionString);
+            db = new DBDataContext();
         }
 
-        // Lấy danh sách các Customer từ cơ sở dữ liệu
         public List<Customer> GetAllCustomers()
         {
             return db.Customers.ToList();
         }
 
-        // Thêm Customer vào cơ sở dữ liệu
         public void AddCustomer(Customer customer)
         {
             db.Customers.InsertOnSubmit(customer);
             db.SubmitChanges();
         }
 
-        // Cập nhật Customer trong cơ sở dữ liệu
         public void UpdateCustomer(Customer customer)
         {
             var existingCustomer = db.Customers.SingleOrDefault(c => c.id == customer.id);
@@ -53,7 +50,6 @@ namespace DAL
             }
         }
 
-        // Xóa Customer khỏi cơ sở dữ liệu
         public void DeleteCustomer(string customerId)
         {
             var customer = db.Customers.SingleOrDefault(c => c.id == customerId);

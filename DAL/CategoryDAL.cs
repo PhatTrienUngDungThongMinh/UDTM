@@ -10,25 +10,22 @@ namespace DAL
     {
         private readonly DBDataContext db = new DBDataContext();
 
-        public CategoryDAL(string connectionString)
+        public CategoryDAL()
         {
-            db = new DBDataContext(connectionString);
+            db = new DBDataContext();
         }
 
-        // Lấy danh sách các Category từ cơ sở dữ liệu
         public List<Category> GetAllCategories()
         {
             return db.Categories.ToList();
         }
 
-        // Thêm Category vào cơ sở dữ liệu
         public void AddCategory(Category category)
         {
             db.Categories.InsertOnSubmit(category);
             db.SubmitChanges();
         }
 
-        // Cập nhật Category trong cơ sở dữ liệu
         public void UpdateCategory(Category category)
         {
             var existingCategory = db.Categories.SingleOrDefault(c => c.id == category.id);
@@ -46,7 +43,6 @@ namespace DAL
             }
         }
 
-        // Xóa Category khỏi cơ sở dữ liệu
         public void DeleteCategory(int categoryId)
         {
             var category = db.Categories.SingleOrDefault(c => c.id == categoryId);

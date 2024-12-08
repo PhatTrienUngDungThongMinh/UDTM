@@ -12,9 +12,9 @@ namespace BLL
     {
         private readonly PositionDAL positionDAL;
 
-        public PositionBLL(string connectionString)
+        public PositionBLL()
         {
-            positionDAL = new PositionDAL(connectionString);
+            
         }
 
         // Lấy danh sách tất cả các Positions

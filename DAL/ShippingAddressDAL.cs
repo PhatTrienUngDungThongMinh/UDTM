@@ -11,25 +11,23 @@ namespace DAL
     {
         private readonly DBDataContext db;
 
-        public ShippingAddressDAL(string connectionString)
+        public ShippingAddressDAL()
         {
-            db = new DBDataContext(connectionString);
+            db = new DBDataContext();
         }
 
-        // Lấy danh sách các ShippingAddresses từ cơ sở dữ liệu
+
         public List<ShippingAddress> GetAllShippingAddresses()
         {
             return db.ShippingAddresses.ToList();
         }
 
-        // Thêm ShippingAddress vào cơ sở dữ liệu
         public void AddShippingAddress(ShippingAddress address)
         {
             db.ShippingAddresses.InsertOnSubmit(address);
             db.SubmitChanges();
         }
 
-        // Cập nhật ShippingAddress trong cơ sở dữ liệu
         public void UpdateShippingAddress(ShippingAddress address)
         {
             var existingAddress = db.ShippingAddresses.SingleOrDefault(a => a.id == address.id);
@@ -51,7 +49,6 @@ namespace DAL
             }
         }
 
-        // Xóa ShippingAddress khỏi cơ sở dữ liệu
         public void DeleteShippingAddress(int addressId)
         {
             var address = db.ShippingAddresses.SingleOrDefault(a => a.id == addressId);

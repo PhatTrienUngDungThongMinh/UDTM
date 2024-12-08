@@ -12,9 +12,9 @@ namespace BLL
     {
         private readonly ReviewDAL reviewDAL;
 
-        public ReviewBLL(string connectionString)
+        public ReviewBLL()
         {
-            reviewDAL = new ReviewDAL(connectionString);
+            
         }
 
         // Lấy danh sách tất cả các Reviews

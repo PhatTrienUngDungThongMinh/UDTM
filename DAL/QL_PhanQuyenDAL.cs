@@ -11,25 +11,22 @@ namespace DAL
     {
         private readonly DBDataContext db;
 
-        public QL_PhanQuyenDAL(string connectionString)
+        public QL_PhanQuyenDAL()
         {
-            db = new DBDataContext(connectionString);
+            db = new DBDataContext();
         }
 
-        // Lấy danh sách các QL_PhanQuyen từ cơ sở dữ liệu
         public List<QL_PhanQuyen> GetAllQL_PhanQuyens()
         {
             return db.QL_PhanQuyens.ToList();
         }
 
-        // Thêm QL_PhanQuyen vào cơ sở dữ liệu
         public void AddQL_PhanQuyen(QL_PhanQuyen phanQuyen)
         {
             db.QL_PhanQuyens.InsertOnSubmit(phanQuyen);
             db.SubmitChanges();
         }
 
-        // Cập nhật QL_PhanQuyen trong cơ sở dữ liệu
         public void UpdateQL_PhanQuyen(QL_PhanQuyen phanQuyen)
         {
             var existingPhanQuyen = db.QL_PhanQuyens.SingleOrDefault(q => q.IDPositions == phanQuyen.IDPositions && q.ScreenCode == phanQuyen.ScreenCode);
@@ -44,7 +41,6 @@ namespace DAL
             }
         }
 
-        // Xóa QL_PhanQuyen khỏi cơ sở dữ liệu
         public void DeleteQL_PhanQuyen(int positionId, string screenCode)
         {
             var phanQuyen = db.QL_PhanQuyens.SingleOrDefault(q => q.IDPositions == positionId && q.ScreenCode == screenCode);

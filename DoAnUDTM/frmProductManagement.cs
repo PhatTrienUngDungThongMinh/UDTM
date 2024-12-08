@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BLL;
+using DTO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,6 +19,11 @@ namespace DoAnUDTM
             InitializeComponent();
         }
 
- 
+        private void frmProductManagement_Load(object sender, EventArgs e)
+        {
+            ProductBLL productBLL = new ProductBLL();
+            DsSanPham.DataSource = productBLL.GetAllProducts();
+            
+        }
     }
 }

@@ -11,25 +11,22 @@ namespace DAL
     {
         private readonly DBDataContext db;
 
-        public EmployeeDAL(string connectionString)
+        public EmployeeDAL()
         {
-            db = new DBDataContext(connectionString);
+            db = new DBDataContext();
         }
 
-        // Lấy danh sách các Employees từ cơ sở dữ liệu
         public List<Employee> GetAllEmployees()
         {
             return db.Employees.ToList();
         }
 
-        // Thêm Employee vào cơ sở dữ liệu
         public void AddEmployee(Employee employee)
         {
             db.Employees.InsertOnSubmit(employee);
             db.SubmitChanges();
         }
 
-        // Cập nhật Employee trong cơ sở dữ liệu
         public void UpdateEmployee(Employee employee)
         {
             var existingEmployee = db.Employees.SingleOrDefault(e => e.id == employee.id);
@@ -60,7 +57,6 @@ namespace DAL
             }
         }
 
-        // Xóa Employee khỏi cơ sở dữ liệu
         public void DeleteEmployee(int employeeId)
         {
             var employee = db.Employees.SingleOrDefault(e => e.id == employeeId);

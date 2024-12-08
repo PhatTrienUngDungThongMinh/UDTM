@@ -33,7 +33,7 @@ namespace DoAnUDTM
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.DsSanPham = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -64,7 +64,7 @@ namespace DoAnUDTM
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DsSanPham)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.SuspendLayout();
@@ -80,21 +80,21 @@ namespace DoAnUDTM
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.dataGridView1);
+            this.groupBox3.Controls.Add(this.DsSanPham);
             this.groupBox3.Location = new System.Drawing.Point(10, 244);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(794, 239);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Danh Sách Điện Thoại";
+            this.groupBox3.Text = "Danh sách sản phẩm";
             // 
-            // dataGridView1
+            // DsSanPham
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(5, 19);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(783, 214);
-            this.dataGridView1.TabIndex = 0;
+            this.DsSanPham.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DsSanPham.Location = new System.Drawing.Point(5, 19);
+            this.DsSanPham.Name = "DsSanPham";
+            this.DsSanPham.Size = new System.Drawing.Size(783, 214);
+            this.DsSanPham.TabIndex = 0;
             // 
             // button1
             // 
@@ -385,8 +385,9 @@ namespace DoAnUDTM
             this.Controls.Add(this.groupBox1);
             this.Name = "frmProductManagement";
             this.Text = "frmProductManagement";
+            this.Load += new System.EventHandler(this.frmProductManagement_Load);
             this.groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DsSanPham)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox4.ResumeLayout(false);
@@ -402,7 +403,7 @@ namespace DoAnUDTM
         private Button button3;
         private Button button4;
         private Button button5;
-        private DataGridView dataGridView1;
+        private DataGridView DsSanPham;
         private Label label1;
         private Label label2;
         private Label label3;

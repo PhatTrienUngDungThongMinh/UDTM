@@ -11,25 +11,22 @@ namespace DAL
     {
         private readonly DBDataContext db;
 
-        public DeliveryReceiptDetailDAL(string connectionString)
+        public DeliveryReceiptDetailDAL()
         {
-            db = new DBDataContext(connectionString);
+            db = new DBDataContext();
         }
 
-        // Lấy danh sách các DeliveryReceiptDetail từ cơ sở dữ liệu
         public List<DeliveryReceiptDetail> GetAllDeliveryReceiptDetails()
         {
             return db.DeliveryReceiptDetails.ToList();
         }
 
-        // Thêm DeliveryReceiptDetail vào cơ sở dữ liệu
         public void AddDeliveryReceiptDetail(DeliveryReceiptDetail detail)
         {
             db.DeliveryReceiptDetails.InsertOnSubmit(detail);
             db.SubmitChanges();
         }
 
-        // Cập nhật DeliveryReceiptDetail trong cơ sở dữ liệu
         public void UpdateDeliveryReceiptDetail(DeliveryReceiptDetail detail)
         {
             var existingDetail = db.DeliveryReceiptDetails.SingleOrDefault(d => d.id == detail.id);
@@ -51,7 +48,6 @@ namespace DAL
             }
         }
 
-        // Xóa DeliveryReceiptDetail khỏi cơ sở dữ liệu
         public void DeleteDeliveryReceiptDetail(int detailId)
         {
             var detail = db.DeliveryReceiptDetails.SingleOrDefault(d => d.id == detailId);

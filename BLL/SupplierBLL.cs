@@ -12,9 +12,9 @@ namespace BLL
     {
         private readonly SupplierDAL supplierDAL;
 
-        public SupplierBLL(string connectionString)
+        public SupplierBLL()
         {
-            supplierDAL = new SupplierDAL(connectionString);
+            
         }
 
         // Lấy danh sách tất cả các Suppliers

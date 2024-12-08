@@ -10,11 +10,11 @@ namespace BLL
 {
     public class ProductBLL
     {
-        private readonly ProductDAL productDAL;
+        private readonly ProductDAL productDAL = new ProductDAL();
 
-        public ProductBLL(string connectionString)
+        public ProductBLL()
         {
-            productDAL = new ProductDAL(connectionString);
+            
         }
 
         // Lấy danh sách tất cả các Products

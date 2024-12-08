@@ -11,25 +11,22 @@ namespace DAL
     {
         private readonly DBDataContext db;
 
-        public ReviewDAL(string connectionString)
+        public ReviewDAL()
         {
-            db = new DBDataContext(connectionString);
+            db = new DBDataContext();
         }
 
-        // Lấy danh sách các Reviews từ cơ sở dữ liệu
         public List<Review> GetAllReviews()
         {
             return db.Reviews.ToList();
         }
 
-        // Thêm Review vào cơ sở dữ liệu
         public void AddReview(Review review)
         {
             db.Reviews.InsertOnSubmit(review);
             db.SubmitChanges();
         }
 
-        // Cập nhật Review trong cơ sở dữ liệu
         public void UpdateReview(Review review)
         {
             var existingReview = db.Reviews.SingleOrDefault(r => r.id == review.id);
@@ -51,7 +48,6 @@ namespace DAL
             }
         }
 
-        // Xóa Review khỏi cơ sở dữ liệu
         public void DeleteReview(int reviewId)
         {
             var review = db.Reviews.SingleOrDefault(r => r.id == reviewId);

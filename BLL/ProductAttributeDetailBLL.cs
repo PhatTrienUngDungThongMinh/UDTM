@@ -12,9 +12,9 @@ namespace BLL
     {
         private readonly ProductAttributeDetailDAL productAttributeDetailDAL;
 
-        public ProductAttributeDetailBLL(string connectionString)
+        public ProductAttributeDetailBLL()
         {
-            productAttributeDetailDAL = new ProductAttributeDetailDAL(connectionString);
+            
         }
 
         // Lấy danh sách tất cả các ProductAttributeDetails

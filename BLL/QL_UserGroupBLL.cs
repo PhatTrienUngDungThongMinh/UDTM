@@ -12,9 +12,9 @@ namespace BLL
     {
         private readonly QL_UserGroupDAL qlUserGroupDAL;
 
-        public QL_UserGroupBLL(string connectionString)
+        public QL_UserGroupBLL()
         {
-            qlUserGroupDAL = new QL_UserGroupDAL(connectionString);
+            
         }
 
         // Lấy danh sách tất cả các QL_UserGroups

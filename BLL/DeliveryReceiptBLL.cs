@@ -12,9 +12,9 @@ namespace BLL
     {
         private readonly DeliveryReceiptDAL deliveryReceiptDAL;
 
-        public DeliveryReceiptBLL(string connectionString)
+        public DeliveryReceiptBLL()
         {
-            deliveryReceiptDAL = new DeliveryReceiptDAL(connectionString);
+            
         }
 
         // Lấy danh sách tất cả các DeliveryReceipts

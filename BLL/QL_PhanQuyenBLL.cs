@@ -12,9 +12,9 @@ namespace BLL
     {
         private readonly QL_PhanQuyenDAL qlPhanQuyenDAL;
 
-        public QL_PhanQuyenBLL(string connectionString)
+        public QL_PhanQuyenBLL()
         {
-            qlPhanQuyenDAL = new QL_PhanQuyenDAL(connectionString);
+            
         }
 
         // Lấy danh sách tất cả các QL_PhanQuyen

@@ -11,25 +11,22 @@ namespace DAL
     {
         private readonly DBDataContext db;
 
-        public ImageDAL(string connectionString)
+        public ImageDAL()
         {
-            db = new DBDataContext(connectionString);
+            db = new DBDataContext();
         }
 
-        // Lấy danh sách các Images từ cơ sở dữ liệu
         public List<Image> GetAllImages()
         {
             return db.Images.ToList();
         }
 
-        // Thêm Image vào cơ sở dữ liệu
         public void AddImage(Image image)
         {
             db.Images.InsertOnSubmit(image);
             db.SubmitChanges();
         }
 
-        // Cập nhật Image trong cơ sở dữ liệu
         public void UpdateImage(Image image)
         {
             var existingImage = db.Images.SingleOrDefault(i => i.id == image.id);
@@ -48,7 +45,6 @@ namespace DAL
             }
         }
 
-        // Xóa Image khỏi cơ sở dữ liệu
         public void DeleteImage(int imageId)
         {
             var image = db.Images.SingleOrDefault(i => i.id == imageId);

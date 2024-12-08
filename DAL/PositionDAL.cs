@@ -11,25 +11,22 @@ namespace DAL
     {
         private readonly DBDataContext db;
 
-        public PositionDAL(string connectionString)
+        public PositionDAL()
         {
-            db = new DBDataContext(connectionString);
+            db = new DBDataContext();
         }
 
-        // Lấy danh sách các Positions từ cơ sở dữ liệu
         public List<Position> GetAllPositions()
         {
             return db.Positions.ToList();
         }
 
-        // Thêm Position vào cơ sở dữ liệu
         public void AddPosition(Position position)
         {
             db.Positions.InsertOnSubmit(position);
             db.SubmitChanges();
         }
 
-        // Cập nhật Position trong cơ sở dữ liệu
         public void UpdatePosition(Position position)
         {
             var existingPosition = db.Positions.SingleOrDefault(p => p.id == position.id);
@@ -46,7 +43,6 @@ namespace DAL
             }
         }
 
-        // Xóa Position khỏi cơ sở dữ liệu
         public void DeletePosition(int positionId)
         {
             var position = db.Positions.SingleOrDefault(p => p.id == positionId);

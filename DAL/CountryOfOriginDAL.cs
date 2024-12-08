@@ -11,25 +11,22 @@ namespace DAL
     {
         private readonly DBDataContext db;
 
-        public CountryOfOriginDAL(string connectionString)
+        public CountryOfOriginDAL()
         {
-            db = new DBDataContext(connectionString);
+            db = new DBDataContext();
         }
 
-        // Lấy danh sách các CountryOfOrigin từ cơ sở dữ liệu
         public List<CountryOfOrigin> GetAllCountries()
         {
             return db.CountryOfOrigins.ToList();
         }
 
-        // Thêm CountryOfOrigin vào cơ sở dữ liệu
         public void AddCountry(CountryOfOrigin country)
         {
             db.CountryOfOrigins.InsertOnSubmit(country);
             db.SubmitChanges();
         }
 
-        // Cập nhật CountryOfOrigin trong cơ sở dữ liệu
         public void UpdateCountry(CountryOfOrigin country)
         {
             var existingCountry = db.CountryOfOrigins.SingleOrDefault(c => c.id == country.id);
@@ -46,7 +43,6 @@ namespace DAL
             }
         }
 
-        // Xóa CountryOfOrigin khỏi cơ sở dữ liệu
         public void DeleteCountry(int countryId)
         {
             var country = db.CountryOfOrigins.SingleOrDefault(c => c.id == countryId);

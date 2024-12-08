@@ -12,9 +12,9 @@ namespace BLL
     {
         private readonly PromotionDAL promotionDAL;
 
-        public PromotionBLL(string connectionString)
+        public PromotionBLL()
         {
-            promotionDAL = new PromotionDAL(connectionString);
+            
         }
 
         // Lấy danh sách tất cả các Promotions

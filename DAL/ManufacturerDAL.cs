@@ -11,25 +11,22 @@ namespace DAL
     {
         private readonly DBDataContext db;
 
-        public ManufacturerDAL(string connectionString)
+        public ManufacturerDAL()
         {
-            db = new DBDataContext(connectionString);
+            db = new DBDataContext();
         }
 
-        // Lấy danh sách các Manufacturers từ cơ sở dữ liệu
         public List<Manufacturer> GetAllManufacturers()
         {
             return db.Manufacturers.ToList();
         }
 
-        // Thêm Manufacturer vào cơ sở dữ liệu
         public void AddManufacturer(Manufacturer manufacturer)
         {
             db.Manufacturers.InsertOnSubmit(manufacturer);
             db.SubmitChanges();
         }
 
-        // Cập nhật Manufacturer trong cơ sở dữ liệu
         public void UpdateManufacturer(Manufacturer manufacturer)
         {
             var existingManufacturer = db.Manufacturers.SingleOrDefault(m => m.id == manufacturer.id);
@@ -47,7 +44,6 @@ namespace DAL
             }
         }
 
-        // Xóa Manufacturer khỏi cơ sở dữ liệu
         public void DeleteManufacturer(int manufacturerId)
         {
             var manufacturer = db.Manufacturers.SingleOrDefault(m => m.id == manufacturerId);

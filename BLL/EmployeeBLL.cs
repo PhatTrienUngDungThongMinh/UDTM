@@ -12,9 +12,9 @@ namespace BLL
     {
         private readonly EmployeeDAL employeeDAL;
 
-        public EmployeeBLL(string connectionString)
+        public EmployeeBLL()
         {
-            employeeDAL = new EmployeeDAL(connectionString);
+            
         }
 
         // Lấy danh sách tất cả các Employees

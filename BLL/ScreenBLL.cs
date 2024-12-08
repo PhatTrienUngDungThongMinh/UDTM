@@ -12,9 +12,9 @@ namespace BLL
     {
         private readonly ScreenDAL screenDAL;
 
-        public ScreenBLL(string connectionString)
+        public ScreenBLL()
         {
-            screenDAL = new ScreenDAL(connectionString);
+            
         }
 
         // Lấy danh sách tất cả các Screens

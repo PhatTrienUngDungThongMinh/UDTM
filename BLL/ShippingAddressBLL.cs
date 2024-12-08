@@ -12,9 +12,9 @@ namespace BLL
     {
         private readonly ShippingAddressDAL shippingAddressDAL;
 
-        public ShippingAddressBLL(string connectionString)
+        public ShippingAddressBLL()
         {
-            shippingAddressDAL = new ShippingAddressDAL(connectionString);
+            
         }
 
         // Lấy danh sách tất cả các ShippingAddresses

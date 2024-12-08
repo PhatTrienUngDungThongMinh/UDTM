@@ -12,9 +12,9 @@ namespace BLL
     {
         private readonly PaymentMethodDAL paymentMethodDAL;
 
-        public PaymentMethodBLL(string connectionString)
+        public PaymentMethodBLL()
         {
-            paymentMethodDAL = new PaymentMethodDAL(connectionString);
+            
         }
 
         // Lấy danh sách tất cả các PaymentMethods

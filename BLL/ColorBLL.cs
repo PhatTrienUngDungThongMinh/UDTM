@@ -12,9 +12,9 @@ namespace BLL
     {
         private readonly ColorDAL colorDAL;
 
-        public ColorBLL(string connectionString)
+        public ColorBLL()
         {
-            colorDAL = new ColorDAL(connectionString);
+           
         }
 
         // Lấy danh sách tất cả các Color
