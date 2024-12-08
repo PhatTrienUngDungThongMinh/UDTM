@@ -28,3 +28,5 @@ C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAn
 C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.pdb
 C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmAddUserToPermissionGroup.resources
 C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmCustomerManagement.resources
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmCustomerManagement.resources
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmAddUserToPermissionGroup.resources

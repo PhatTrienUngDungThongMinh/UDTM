@@ -13,25 +13,103 @@ namespace DoAnUDTM
 {
     public partial class frmHome : Form
     {
-       
+        bool sildebarExpand = true;
+        private Form currentFormChild;
         public frmHome()
         {
             InitializeComponent();
         }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void OpenChildForm(Form childForm)
         {
-            
+            if (currentFormChild != null)
+            {
+                currentFormChild.Close();
+            }
+
+            currentFormChild = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+
+            panel_body.Controls.Add(childForm);
+            panel_body.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
+        private void SlidebarTimer_Tick(object sender, EventArgs e)
+        {
+            if (sildebarExpand)
+            {
+                // Đặt kích thước của cột đầu tiên (Column 0) của tableLayoutPanel1 thành 100 pixel
+                tableLayoutPanel1.ColumnStyles[0].Width -= 10;
+                if (tableLayoutPanel1.ColumnStyles[0].Width == 40)
+                {
+                    sildebarExpand = false;
+
+                    SlidebarTimer.Stop();
+
+                }
+
+            }
+            else
+            {
+                tableLayoutPanel1.ColumnStyles[0].Width += 10;
+                if (tableLayoutPanel1.ColumnStyles[0].Width == 210)
+                {
+                    sildebarExpand = true;
+                    SlidebarTimer.Stop();
+                }
+            }
+        }
+        private void btnSanPham_Click(object sender, EventArgs e)
+        {
+            frmProductManagement pm=new frmProductManagement();
+            OpenChildForm(pm);
         }
 
-        private void frmHome_Load(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            //var products = db.Category.ToList(); // Fetch all products from the database
+            frmPeriodicReport pr=new frmPeriodicReport();
+            OpenChildForm(pr);
+        }
 
-            //// Assign the products list to the DataGridView's DataSource
-            //dataGridView1.DataSource = products;
-            //dataGridView1 = new DataGridView();
-            //dataGridView1.DataSource = 
+        private void btnHoaDon_Click(object sender, EventArgs e)
+        {
+            frmOrderManagement om=new frmOrderManagement();
+            OpenChildForm(om);
+        }
+
+        private void btnKhachHang_Click(object sender, EventArgs e)
+        {
+            frmCustomerManagement cm=new frmCustomerManagement();
+            OpenChildForm(cm);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmEmployeeAccountManagement em=new frmEmployeeAccountManagement();
+            OpenChildForm(em);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            frmProductCategorization pc=new frmProductCategorization();
+            OpenChildForm(pc);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            frmProductManagement pm= new frmProductManagement();
+            OpenChildForm(pm);
+        }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Bạn có muốn đăng xuất không?", "Xác nhận", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                Login dn = new Login();
+                dn.Show();
+                this.Visible = false;
+            }
         }
     }
 }
