@@ -40,8 +40,8 @@ namespace DoAnUDTM
             if (sildebarExpand)
             {
                 // Đặt kích thước của cột đầu tiên (Column 0) của tableLayoutPanel1 thành 100 pixel
-                tableLayoutPanel1.ColumnStyles[0].Width -= 10;
-                if (tableLayoutPanel1.ColumnStyles[0].Width == 40)
+                tableLayoutPanel1.ColumnStyles[1].Width -= 10;
+                if (tableLayoutPanel1.ColumnStyles[1].Width == 40)
                 {
                     sildebarExpand = false;
 

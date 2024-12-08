@@ -31,212 +31,213 @@ namespace DoAnUDTM
         /// </summary>
         private void InitializeComponent()
         {
-            label4 = new Label();
-            label3 = new Label();
-            button2 = new Button();
-            dataGridView1 = new DataGridView();
-            groupBox2 = new GroupBox();
-            groupBox4 = new GroupBox();
-            groupBox3 = new GroupBox();
-            dataGridView2 = new DataGridView();
-            comboBox3 = new ComboBox();
-            label2 = new Label();
-            comboBox2 = new ComboBox();
-            label1 = new Label();
-            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            button1 = new Button();
-            comboBox1 = new ComboBox();
-            textBox2 = new TextBox();
-            groupBox1 = new GroupBox();
-            textBox1 = new TextBox();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            groupBox2.SuspendLayout();
-            groupBox4.SuspendLayout();
-            groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
-            groupBox1.SuspendLayout();
-            SuspendLayout();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.label2 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.button1 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.SuspendLayout();
             // 
             // label4
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(690, 440);
-            label4.Name = "label4";
-            label4.Size = new Size(31, 15);
-            label4.TabIndex = 18;
-            label4.Text = "VNĐ";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(269, 384);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(30, 13);
+            this.label4.TabIndex = 18;
+            this.label4.Text = "VNĐ";
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(503, 440);
-            label3.Name = "label3";
-            label3.Size = new Size(65, 15);
-            label3.TabIndex = 16;
-            label3.Text = "Doanh Thu";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(147, 384);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(61, 13);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Doanh Thu";
             // 
             // button2
             // 
-            button2.Location = new Point(388, 436);
-            button2.Name = "button2";
-            button2.Size = new Size(80, 23);
-            button2.TabIndex = 15;
-            button2.Text = "Thống Kê";
-            button2.UseVisualStyleBackColor = true;
+            this.button2.Location = new System.Drawing.Point(11, 376);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(81, 28);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "Thống Kê";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(6, 14);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(311, 153);
-            dataGridView1.TabIndex = 9;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(5, 12);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(331, 133);
+            this.dataGridView1.TabIndex = 9;
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(groupBox4);
-            groupBox2.Controls.Add(groupBox3);
-            groupBox2.Controls.Add(comboBox3);
-            groupBox2.Controls.Add(label2);
-            groupBox2.Controls.Add(comboBox2);
-            groupBox2.Controls.Add(label1);
-            groupBox2.Location = new Point(374, 5);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(359, 460);
-            groupBox2.TabIndex = 14;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Doanh Thu";
+            this.groupBox2.Controls.Add(this.comboBox3);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Controls.Add(this.groupBox4);
+            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Controls.Add(this.groupBox3);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.comboBox2);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Location = new System.Drawing.Point(459, 4);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(353, 530);
+            this.groupBox2.TabIndex = 14;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Doanh Thu";
             // 
             // groupBox4
             // 
-            groupBox4.Controls.Add(dataGridView1);
-            groupBox4.Location = new Point(6, 243);
-            groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(323, 173);
-            groupBox4.TabIndex = 9;
-            groupBox4.TabStop = false;
-            groupBox4.Text = "Danh Sách Doanh Thu";
+            this.groupBox4.Controls.Add(this.dataGridView1);
+            this.groupBox4.Location = new System.Drawing.Point(5, 211);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(342, 150);
+            this.groupBox4.TabIndex = 9;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Danh Sách Doanh Thu";
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(dataGridView2);
-            groupBox3.Location = new Point(6, 64);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(323, 173);
-            groupBox3.TabIndex = 7;
-            groupBox3.TabStop = false;
-            groupBox3.Text = "Danh Sách Hóa Đơn";
+            this.groupBox3.Controls.Add(this.dataGridView2);
+            this.groupBox3.Location = new System.Drawing.Point(5, 55);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(342, 150);
+            this.groupBox3.TabIndex = 7;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Danh Sách Hóa Đơn";
             // 
             // dataGridView2
             // 
-            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView2.Location = new Point(8, 16);
-            dataGridView2.Name = "dataGridView2";
-            dataGridView2.Size = new Size(311, 145);
-            dataGridView2.TabIndex = 8;
-            // 
-            // comboBox3
-            // 
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(195, 27);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(87, 23);
-            comboBox3.TabIndex = 6;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(7, 14);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(329, 126);
+            this.dataGridView2.TabIndex = 8;
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(156, 31);
-            label2.Name = "label2";
-            label2.Size = new Size(33, 15);
-            label2.TabIndex = 5;
-            label2.Text = "Năm";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(175, 27);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(29, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Năm";
             // 
             // comboBox2
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(56, 26);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(84, 23);
-            comboBox2.TabIndex = 3;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(48, 23);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 21);
+            this.comboBox2.TabIndex = 3;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(10, 31);
-            label1.Name = "label1";
-            label1.Size = new Size(40, 15);
-            label1.TabIndex = 1;
-            label1.Text = "Tháng";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(9, 27);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Tháng";
             // 
             // button1
             // 
-            button1.Location = new System.Drawing.Point(117, 27);
-            button1.Name = "button1";
-            button1.Size = new Size(82, 23);
-            button1.TabIndex = 2;
-            button1.Text = "Vẽ";
-            button1.UseVisualStyleBackColor = true;
+            this.button1.Location = new System.Drawing.Point(100, 23);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(99, 22);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Vẽ";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // comboBox1
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(8, 27);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(75, 23);
-            comboBox1.TabIndex = 1;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(7, 23);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(87, 21);
+            this.comboBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            textBox2.Enabled = false;
-            textBox2.Location = new Point(570, 434);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(105, 23);
-            textBox2.TabIndex = 17;
+            this.textBox2.Enabled = false;
+            this.textBox2.Location = new System.Drawing.Point(489, 376);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(91, 20);
+            this.textBox2.TabIndex = 17;
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(button1);
-            groupBox1.Controls.Add(comboBox1);
-            groupBox1.Controls.Add(textBox1);
-            groupBox1.Location = new Point(4, 5);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(369, 460);
-            groupBox1.TabIndex = 13;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Thống Kê";
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Location = new System.Drawing.Point(3, 4);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(450, 530);
+            this.groupBox1.TabIndex = 13;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Thống Kê";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(6, 80);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(356, 369);
-            textBox1.TabIndex = 0;
+            this.textBox1.Location = new System.Drawing.Point(5, 69);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(439, 455);
+            this.textBox1.TabIndex = 0;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(210, 24);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(121, 21);
+            this.comboBox3.TabIndex = 19;
             // 
             // frmPeriodicReport
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(748, 471);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(button2);
-            Controls.Add(groupBox2);
-            Controls.Add(textBox2);
-            Controls.Add(groupBox1);
-            Name = "frmPeriodicReport";
-            Text = "frmPeriodicReport";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            groupBox2.ResumeLayout(false);
-            groupBox2.PerformLayout();
-            groupBox4.ResumeLayout(false);
-            groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(820, 543);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Name = "frmPeriodicReport";
+            this.Text = "frmPeriodicReport";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
@@ -249,7 +250,6 @@ namespace DoAnUDTM
         private GroupBox groupBox4;
         private GroupBox groupBox3;
         private DataGridView dataGridView2;
-        private ComboBox comboBox3;
         private Label label2;
         private ComboBox comboBox2;
         private Label label1;
@@ -259,5 +259,6 @@ namespace DoAnUDTM
         private TextBox textBox2;
         private GroupBox groupBox1;
         private TextBox textBox1;
+        private ComboBox comboBox3;
     }
 }
