@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DoAnUDTM.Properties {
+namespace DTO.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -26,11 +26,11 @@ namespace DoAnUDTM.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-HRMC28G;Initial Catalog=EcommerceDB;Persist Security Info=Tru" +
-            "e;User ID=sa;Password=123;Encrypt=True;TrustServerCertificate=True")]
-        public string EcommerceDBConnectionString {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-HRMC28G;Initial Catalog=DBEcommerce;Persist Security Info=Tru" +
+            "e;User ID=sa;Password=123;TrustServerCertificate=True")]
+        public string DBEcommerceConnectionString {
             get {
-                return ((string)(this["EcommerceDBConnectionString"]));
+                return ((string)(this["DBEcommerceConnectionString"]));
             }
         }
     }

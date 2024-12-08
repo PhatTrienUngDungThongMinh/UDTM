@@ -1,0 +1,10 @@
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DAL\bin\Debug\DAL.dll
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DAL\bin\Debug\DAL.pdb
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DAL\bin\Debug\DTO.dll
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DAL\bin\Debug\DTO.pdb
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DAL\bin\Debug\DTO.dll.config
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DAL\obj\Debug\DAL.dll
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DAL\obj\Debug\DAL.pdb

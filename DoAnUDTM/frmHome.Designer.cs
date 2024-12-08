@@ -98,6 +98,7 @@
             this.panel_body.Name = "panel_body";
             this.panel_body.Size = new System.Drawing.Size(955, 539);
             this.panel_body.TabIndex = 7;
+            this.panel_body.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_body_Paint);
             // 
             // sidebar
             // 

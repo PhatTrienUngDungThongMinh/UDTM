@@ -35,3 +35,15 @@ C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmPeriodicRepor
 C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmProductCategorization.resources
 C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmEmployeeAccountManagement.resources
 C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmOrderManagement.resources
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmEmployeeAccountManagement.resources
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmOrderManagement.resources
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmPeriodicReport.resources
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmProductCategorization.resources
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmProductManagement.resources
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\bin\Debug\BLL.dll
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\bin\Debug\DTO.dll
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\bin\Debug\DAL.dll
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\bin\Debug\BLL.pdb
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\bin\Debug\DTO.pdb
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\bin\Debug\DTO.dll.config
+C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\bin\Debug\DAL.pdb

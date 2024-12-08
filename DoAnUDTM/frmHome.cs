@@ -131,5 +131,10 @@ namespace DoAnUDTM
         {
 
         }
+
+        private void panel_body_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -22,7 +22,7 @@ namespace DoAnUDTM
 
         private void Login_Load(object sender, EventArgs e)
         {
-            login1.Conn = Properties.Settings.Default.EcommerceDBConnectionString;
+            
         }
     }
 }
