@@ -68,7 +68,7 @@ namespace DoAnUDTM
 
         private void button2_Click(object sender, EventArgs e)
         {
-            frmPeriodicReport pr=new frmPeriodicReport();
+            frmAddUserToPermissionGroup pr = new frmAddUserToPermissionGroup();
             OpenChildForm(pr);
         }
 
@@ -135,6 +135,35 @@ namespace DoAnUDTM
         private void panel_body_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            frmInventoryManagement im = new frmInventoryManagement();
+            OpenChildForm(im);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            frmDiscountAndPromotionManagement dm = new frmDiscountAndPromotionManagement();
+            OpenChildForm(dm);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmPeriodicReport pm = new frmPeriodicReport();
+            OpenChildForm(pm);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            frmRoleManagement rm = new frmRoleManagement();
+            OpenChildForm(rm);
         }
     }
 }

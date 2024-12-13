@@ -20,7 +20,10 @@ namespace DAL
         {
             return db.Employees.ToList();
         }
-
+        public Employee GetEmployeeByIdPosition(int id)
+        {
+            return db.Employees.FirstOrDefault(e => e.PositionID == id);
+        }
         public void AddEmployee(Employee employee)
         {
             db.Employees.InsertOnSubmit(employee);

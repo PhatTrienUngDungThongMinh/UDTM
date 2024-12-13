@@ -21,7 +21,10 @@ namespace BLL
         {
             return employeeDAL.GetAllEmployees();
         }
-
+        public Employee GetEmployeeByIdPosition(int id) 
+        { 
+            return employeeDAL.GetEmployeeByIdPosition(id);
+        }
 
         public void AddEmployee(Employee employee)
         {

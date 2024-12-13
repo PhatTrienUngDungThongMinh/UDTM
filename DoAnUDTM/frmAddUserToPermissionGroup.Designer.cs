@@ -19,6 +19,9 @@
         {
             this.lstPermissionGroups = new System.Windows.Forms.ListBox();
             this.dgvMembers = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblGroups = new System.Windows.Forms.Label();
             this.lblMembers = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.TextBox();
@@ -28,9 +31,6 @@
             this.btnAddMember = new System.Windows.Forms.Button();
             this.btnDeleteMember = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMembers)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -38,14 +38,11 @@
             // 
             // lstPermissionGroups
             // 
-            this.lstPermissionGroups.Items.AddRange(new object[] {
-            "Admin",
-            "User",
-            "Guest"});
             this.lstPermissionGroups.Location = new System.Drawing.Point(395, 200);
             this.lstPermissionGroups.Name = "lstPermissionGroups";
             this.lstPermissionGroups.Size = new System.Drawing.Size(350, 147);
             this.lstPermissionGroups.TabIndex = 1;
+            this.lstPermissionGroups.SelectedIndexChanged += new System.EventHandler(this.lstPermissionGroups_SelectedIndexChanged);
             // 
             // dgvMembers
             // 
@@ -57,6 +54,24 @@
             this.dgvMembers.Name = "dgvMembers";
             this.dgvMembers.Size = new System.Drawing.Size(345, 297);
             this.dgvMembers.TabIndex = 3;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "id";
+            this.dataGridViewTextBoxColumn1.HeaderText = "ID tài khoản";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "Username ";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Tên tài khoản";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "FullName";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Họ và tên";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             // 
             // lblGroups
             // 
@@ -85,7 +100,7 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(117, 49);
+            this.txtEmail.Location = new System.Drawing.Point(117, 51);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(200, 20);
             this.txtEmail.TabIndex = 7;
@@ -95,9 +110,9 @@
             this.lblUserName.AutoSize = true;
             this.lblUserName.Location = new System.Drawing.Point(17, 19);
             this.lblUserName.Name = "lblUserName";
-            this.lblUserName.Size = new System.Drawing.Size(89, 13);
+            this.lblUserName.Size = new System.Drawing.Size(79, 13);
             this.lblUserName.TabIndex = 4;
-            this.lblUserName.Text = "Tên Người Dùng:";
+            this.lblUserName.Text = "Tên tài khoản :";
             // 
             // lblEmail
             // 
@@ -132,21 +147,6 @@
             this.btnSave.TabIndex = 13;
             this.btnSave.Text = "Lưu";
             // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.HeaderText = "Tên";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.HeaderText = "Email";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.HeaderText = "Hành Động";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.txtUserName);
@@ -162,7 +162,6 @@
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thành viên";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // frmAddUserToPermissionGroup
             // 
@@ -175,6 +174,7 @@
             this.Name = "frmAddUserToPermissionGroup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản Lý Nhóm Quyền và Thành Viên";
+            this.Load += new System.EventHandler(this.frmAddUserToPermissionGroup_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMembers)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -197,9 +197,9 @@
         private System.Windows.Forms.Button btnAddMember;
         private System.Windows.Forms.Button btnDeleteMember;
         private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
