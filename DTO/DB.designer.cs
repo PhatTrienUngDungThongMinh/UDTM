@@ -111,7 +111,7 @@ namespace DTO
     #endregion
 		
 		public DBDataContext() : 
-				base(global::DTO.Properties.Settings.Default.DBEcommerceConnectionString, mappingSource)
+				base(global::DTO.Properties.Settings.Default.DBEcommerceConnectionString1, mappingSource)
 		{
 			OnCreated();
 		}
@@ -1606,7 +1606,9 @@ namespace DTO
 			this.SendPropertyChanging();
 			entity.Customer = null;
 		}
-	}
+
+
+    }
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.DeliveryReceiptDetails")]
 	public partial class DeliveryReceiptDetail : INotifyPropertyChanging, INotifyPropertyChanged

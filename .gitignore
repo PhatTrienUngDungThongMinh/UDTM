@@ -1,2 +1,6 @@
 .vs
 DTO/
+**/App.config
+**/app.config
+**/DB.dbml
+KeyLibrary/

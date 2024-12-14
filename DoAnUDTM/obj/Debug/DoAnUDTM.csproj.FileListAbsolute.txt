@@ -49,3 +49,15 @@ C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\bin\Debug\DTO.
 C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\bin\Debug\DAL.pdb
 C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmDiscountAndPromotionManagement.resources
 C:\Users\tjnk1\OneDrive\Máy tính\Project\UDTM\DoAnUDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmInventoryManagement.resources
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\bin\Debug\BLL.dll
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\bin\Debug\DTO.dll
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\bin\Debug\DAL.dll
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\bin\Debug\BLL.pdb
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\bin\Debug\DTO.pdb
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\bin\Debug\DTO.dll.config
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\bin\Debug\DAL.pdb
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmDiscountAndPromotionManagement.resources
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmInventoryManagement.resources
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmCountryOfOrigins.resources
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmManufacturers.resources
+C:\HocTap\Hocki7\PTPMUDTM\DoAn\UDTM\DoAnUDTM\obj\Debug\DoAnUDTM.frmWarrantyPolicies.resources

@@ -53,6 +53,12 @@
     <Compile Include="frmAddUserToPermissionGroup.Designer.cs">
       <DependentUpon>frmAddUserToPermissionGroup.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCountryOfOrigins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCountryOfOrigins.Designer.cs">
+      <DependentUpon>frmCountryOfOrigins.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCustomerManagement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +88,12 @@
     </Compile>
     <Compile Include="frmInventoryManagement.Designer.cs">
       <DependentUpon>frmInventoryManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManufacturers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManufacturers.Designer.cs">
+      <DependentUpon>frmManufacturers.cs</DependentUpon>
     </Compile>
     <Compile Include="frmOrderManagement.cs">
       <SubType>Form</SubType>
@@ -119,6 +131,12 @@
     <Compile Include="frmShippingManagement.Designer.cs">
       <DependentUpon>frmShippingManagement.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmWarrantyPolicies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWarrantyPolicies.Designer.cs">
+      <DependentUpon>frmWarrantyPolicies.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +145,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmCountryOfOrigins.resx">
+      <DependentUpon>frmCountryOfOrigins.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCustomerManagement.resx">
       <DependentUpon>frmCustomerManagement.cs</DependentUpon>
     </EmbeddedResource>
@@ -145,6 +166,9 @@
     <EmbeddedResource Include="frmInventoryManagement.resx">
       <DependentUpon>frmInventoryManagement.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmManufacturers.resx">
+      <DependentUpon>frmManufacturers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmOrderManagement.resx">
       <DependentUpon>frmOrderManagement.cs</DependentUpon>
     </EmbeddedResource>
@@ -156,6 +180,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmProductManagement.resx">
       <DependentUpon>frmProductManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWarrantyPolicies.resx">
+      <DependentUpon>frmWarrantyPolicies.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
